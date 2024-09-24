@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="D:\Projects\GIT\PCB-Investigator_Git\Common_Ressources\PCBI_Help_V15.shfbproj" started="25.04.2024 16:31:26">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    D:\Projects\GIT\PCB-Investigator_Git\Common_Ressources
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2023.7.8.0
+Copyright &#169; 2006-2023, Eric Woodruff, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Full\net472\PCB-Investigator.xml
+Source: D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Full\net472\PCB-Investigator.exe
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Full\net472\PCB-Investigator.exe&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI.API_Library\PCBI.API_Library.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI.API_Library\PCBI.API_Library.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI.CCZ_Import\PCBI_CCZ Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI.CCZ_Import\PCBI_CCZ Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_3Dx\PCBI_3Dx.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_3Dx\PCBI_3Dx.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AOI_Analysis\PCBI_AOI_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AOI_Analysis\PCBI_AOI_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AssemblyDrawing_Report\PCBI_AssemblyDrawing_Report.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AssemblyDrawing_Report\PCBI_AssemblyDrawing_Report.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AVL_Check\PCBI_BOMExpert.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AVL_Check\PCBI_BOMExpert.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AVL_Import\PCBI_AVL_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AVL_Import\PCBI_AVL_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_BareBoard_Analysis\PCBI_BareBoard_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_BareBoard_Analysis\PCBI_BareBoard_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Capacity_Analysis\PCBI_Capacity_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Capacity_Analysis\PCBI_Capacity_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_CNC_Export\PCBI_CNC_Export.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_CNC_Export\PCBI_CNC_Export.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ColorGroups\PCBI_ColorGroups.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ColorGroups\PCBI_ColorGroups.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Component_Analysis\PCBI_Component_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Component_Analysis\PCBI_Component_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Component_Editor\PCBI_Component_Editor.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Component_Editor\PCBI_Component_Editor.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ComponentAttribute_ImportExport\PCBI_ComponentAttribute_ImportExport.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ComponentAttribute_ImportExport\PCBI_ComponentAttribute_ImportExport.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Connection_Analysis\PCBI_Connection_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Connection_Analysis\PCBI_Connection_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Creepage_Analysis\PCBI_Creepage_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Creepage_Analysis\PCBI_Creepage_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Database_Compare\PCBI_Database_Compare.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Database_Compare\PCBI_Database_Compare.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DesignHistoryProvider\PCBI_DesignHistoryProvider.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DesignHistoryProvider\PCBI_DesignHistoryProvider.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DFM_Analysis\PCBI_DFM_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DFM_Analysis\PCBI_DFM_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DFT_Analysis\PCBI_DFTPreperation_Editor.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DFT_Analysis\PCBI_DFTPreperation_Editor.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Dielectric_Strength_Analysis\PCBI_DielectricStrength_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Dielectric_Strength_Analysis\PCBI_DielectricStrength_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Dimensioning\PCBI_Dimensioning.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Dimensioning\PCBI_Dimensioning.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Dispensing_Analysis\PCBI_Dispensing_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Dispensing_Analysis\PCBI_Dispensing_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Documentation\PCBI_Documentation.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Documentation\PCBI_Documentation.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DPF_Import\PCBI_DPF_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DPF_Import\PCBI_DPF_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DXF_Import\PCBI_DXF_ImportExport.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_DXF_Import\PCBI_DXF_ImportExport.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Eagle_Import\PCBI_Eagle_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Eagle_Import\PCBI_Eagle_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ExtendedDesign_Report\PCBI_ExtendedDesign_Report.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ExtendedDesign_Report\PCBI_ExtendedDesign_Report.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_FabData\PCBI_CadanceFab_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_FabData\PCBI_CadanceFab_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_FabMaster\PCBI_FabMaster_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_FabMaster\PCBI_FabMaster_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_GDS2_Import\PCBI_GDS2_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_GDS2_Import\PCBI_GDS2_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_GenCad_ImportExport\PCBI_GenCad_ImportExport.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_GenCad_ImportExport\PCBI_GenCad_ImportExport.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_GraphicBoard_Compare\PCBI_GraphicBoard_Compare.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_GraphicBoard_Compare\PCBI_GraphicBoard_Compare.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Hazard_Analysis\PCBI_Hazard_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Hazard_Analysis\PCBI_Hazard_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IBIS_Viewer\PCBI_IBIS_Viewer.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IBIS_Viewer\PCBI_IBIS_Viewer.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IDF_ImportExport\PCBI_IDF_ImportExport.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IDF_ImportExport\PCBI_IDF_ImportExport.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Impedance_Analysis\PCBI_Impedance_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Impedance_Analysis\PCBI_Impedance_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_InstanceSync\PCBI_InstanceSync.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_InstanceSync\PCBI_InstanceSync.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IPC2581_Import\PCBI_IPC2581_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IPC2581_Import\PCBI_IPC2581_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IPC2581B_Import\PCBI_IPC2581B_ImportExport.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IPC2581B_Import\PCBI_IPC2581B_ImportExport.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IPC2581C_ImportExport\PCBI_IPC2581C_ImportExport.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IPC2581C_ImportExport\PCBI_IPC2581C_ImportExport.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IPC356_import\PCBI_IPC356_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_IPC356_import\PCBI_IPC356_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_MachineFormats_ImportExport\PCBI_MachineFormats_ImportExport.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_MachineFormats_ImportExport\PCBI_MachineFormats_ImportExport.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_NetGroups\PCBI_NetGroups.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_NetGroups\PCBI_NetGroups.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_NetLength_Report\PCBI_NetLength_Report.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_NetLength_Report\PCBI_NetLength_Report.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Netlist_Report\PCBI_Netlist_Report.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Netlist_Report\PCBI_Netlist_Report.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_OrderPCB_Report\PCBI_OrderPCB_Report.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_OrderPCB_Report\PCBI_OrderPCB_Report.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Panel_Editor\PCBI_Panel_Editor.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Panel_Editor\PCBI_Panel_Editor.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PartExpert\PCBI_PartExpert.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PartExpert\PCBI_PartExpert.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PDF_Import\PCBI_PDF_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PDF_Import\PCBI_PDF_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PDF_Sync\PCBI_PDF_Sync.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PDF_Sync\PCBI_PDF_Sync.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Physics_SelectiveSoldering\PCBI_Physics_SelectiveSoldering.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Physics_SelectiveSoldering\PCBI_Physics_SelectiveSoldering.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Physics_SMDSoldering\PCBI_Physics_SMDSoldering.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Physics_SMDSoldering\PCBI_Physics_SMDSoldering.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PhysicsV2\PCBI_PhysicsV2.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PhysicsV2\PCBI_PhysicsV2.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PowerPin\PCBI_PowerPin.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_PowerPin\PCBI_PowerPin.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ProductionTool_Editor\PCBI_ProductionTool_Editor.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ProductionTool_Editor\PCBI_ProductionTool_Editor.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_RasterImage_Export\PCBI_RasterImage_Export.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_RasterImage_Export\PCBI_RasterImage_Export.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ScriptEngine\PCBI_ScriptEngine.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_ScriptEngine\PCBI_ScriptEngine.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Stencil_Editor\PCBI_Stencil_Editor.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Stencil_Editor\PCBI_Stencil_Editor.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Step_Export\PCBI_Step_Export.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Step_Export\PCBI_Step_Export.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_SVG_ImportExport\PCBI_SVG_ImportExport.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_SVG_ImportExport\PCBI_SVG_ImportExport.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_TestCoverage_Report\PCBI_TestCoverage_Report.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_TestCoverage_Report\PCBI_TestCoverage_Report.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Testpoint_Report\PCBI_Testpoint_Report.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Testpoint_Report\PCBI_Testpoint_Report.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Tombstone_Analysis\PCBI_Tombstone_Analysis.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Tombstone_Analysis\PCBI_Tombstone_Analysis.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Zuken_Import\PCBI_Zuken_Import.csproj
+    Found project &#39;D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_Zuken_Import\PCBI_Zuken_Import.csproj&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI.HtmlReportTools_Library.dll
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI.HtmlReportTools_Library.dll&#39;
+Source: D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI.HtmlReportTools_Library.xml
+
+Parsing project files
+    Multi-targeted projects were found.  The common target framework &#39;net472&#39; will be used.  Override using the TargetFramework property on the documentation sources.
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI.API_Library.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_CCZ_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_3Dx.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_AOI_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_AssemblyDrawing_Report.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_BOMExpert.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_AVL_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_BareBoard_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Capacity_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_CNC_Export.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_ColorGroups.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Component_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Component_Editor.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_ComponentAttribute_ImportExport.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Connection_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Creepage_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Database_Compare.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_DesignHistoryProvider.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_DFM_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_DFTPreperation_Editor.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_DielectricStrength_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Dimensioning.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Dispensing_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Documentation.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_DPF_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_DXF_ImportExport.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Eagle_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_ExtendedDesign_Report.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_CadanceFab_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_FabMaster_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_GDS2_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_GenCad_ImportExport.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_GraphicBoard_Compare.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Hazard_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_IBIS_Viewer.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_IDF_ImportExport.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Impedance_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_InstanceSync.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_IPC2581_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_IPC2581B_ImportExport.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_IPC2581C_ImportExport.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_IPC356_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_MachineFormats_ImportExport.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_NetGroups.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_NetLength_Report.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Netlist_Report.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_OrderPCB_Report.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Panel_Editor.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_PartExpert.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_PDF_Import.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_PDF_Sync.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Physics_SelectiveSoldering.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Physics_SMDSoldering.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_PhysicsV2.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_PowerPin.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_ProductionTool_Editor.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_RasterImage_Export.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_ScriptEngine.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Stencil_Editor.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Step_Export.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_SVG_ImportExport.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_TestCoverage_Report.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Testpoint_Report.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Tombstone_Analysis.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI_Zuken_Import.dll&#39; (.NETFramework 4.7.2)
+
+References to include:
+    Asm.As.Oib.Common
+    Asm.As.Oib.Common.Proxy
+    Asm.As.Oib.SIPLACEPro.Contracts
+    Asm.As.Oib.SIPLACEPro.Proxy
+    CADImport
+    CCT.ArchiveView
+    CCT.OCDotNet.ApplicationFramework
+    CCT.OCDotNet.DataExchange
+    CCT.OCDotNet.Foundation
+    CCT.OCDotNet.Initialize
+    CCT.OCDotNet.ModelingAlgorithms
+    CCT.OCDotNet.ModelingData
+    CCT.OCDotNet.Visualization
+    CCT.StructStorage
+    CCT.Utils.Helpers
+    CCT.Utils.Serialize
+    CCT.Utils.View
+    CudaBlas, Version=8.0.22.0, Culture=neutral, PublicKeyToken=539d54d12e99fedb, processorArchitecture=AMD64
+    Diff.Net.PCBI
+    DocumentFormat.OpenXml
+    DotLiquid
+    EasyLogix.Libraries.Identity.OidcClient
+    EasyLogix.Libraries.Logging
+    EasyLogix.SOD2.SDK
+    EasyLogix.Web.Common.Entities
+    geometry3Sharp
+    HeatExchangeCalculator
+    lc1
+    LiteDB
+    ManagedCuda, Version=8.0.22.0, Culture=neutral, PublicKeyToken=242d898828717aa0, processorArchitecture=MSIL
+    Microsoft.CodeAnalysis.CSharp
+    Microsoft.Msagl
+    Microsoft.Msagl.Drawing
+    Microsoft.Msagl.GraphViewerGdi
+    Microsoft.Office.Interop.Word
+    Microsoft.VisualBasic.PowerPacks.Vs
+    Microsoft.WindowsAPICodePack.Core
+    Microsoft.WindowsAPICodePack.ExtendedLinguisticServices
+    Microsoft.WindowsAPICodePack.Sensors
+    Microsoft.WindowsAPICodePack.Shell
+    Microsoft.WindowsAPICodePack.ShellExtensions
+    Newtonsoft.Json
+    Office
+    PCBI_Panel_Editor
+    SevenZipExtractor
+    SharpDX
+    Shell32
+    System.Buffers
+    System.CodeDom
+    System.Collections.Immutable
+    System.Configuration.ConfigurationManager
+    System.IO
+    System.Memory
+    System.Numerics.Vectors
+    System.Resources.Extensions
+    System.Runtime
+    System.Runtime.CompilerServices.Unsafe
+    System.Security.AccessControl
+    System.Security.Cryptography.Algorithms
+    System.Security.Cryptography.Encoding
+    System.Security.Cryptography.Primitives
+    System.Security.Cryptography.X509Certificates
+    System.Security.Permissions
+    System.Security.Principal.Windows
+    zxing
+    zxing.presentation
+
+Copying XML comments files
+    D:\Projects\GIT\PCB-Investigator_Git\Plugins\PCBI_AOI_Analysis\bin\Release\PCBI_AOI_Analysis.xml -&gt; D:\tmp\sandcastle\Working\PCBI_AOI_Analysis.xml
+    D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Full\net472\PCB-Investigator.xml -&gt; D:\tmp\sandcastle\Working\PCB-Investigator.xml
+    D:\Projects\GIT\PCB-Investigator_Git\bin\Release\Plugins\net472\PCBI.HtmlReportTools_Library.xml -&gt; D:\tmp\sandcastle\Working\PCBI.HtmlReportTools_Library.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Englisch (USA))...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,5848
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj]
+Der Buildvorgang wurde am 25.04.2024 16:31:35 gestartet.
+Projekt &quot;D:\tmp\sandcastle\Working\GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis &quot;obj\Debug\&quot; wird erstellt.
+_HandlePackageFileConflicts:
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Zwischen &quot;Reference:System.IO&quot; und &quot;Platform:System.IO.dll&quot; ist ein Konflikt aufgetreten.  NETSDK1033: &quot;Platform:System.IO.dll&quot; wird ausgew„hlt, weil AssemblyVersion &quot;4.1.2.0&quot; h”her ist als &quot;4.1.1.0&quot;. [D:\tmp\sandcastle\Working\GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Zwischen &quot;Reference:System.Runtime&quot; und &quot;Platform:System.Runtime.dll&quot; ist ein Konflikt aufgetreten.  NETSDK1033: &quot;Platform:System.Runtime.dll&quot; wird ausgew„hlt, weil AssemblyVersion &quot;4.1.2.0&quot; h”her ist als &quot;4.1.1.0&quot;. [D:\tmp\sandcastle\Working\GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Zwischen &quot;Reference:System.Security.Cryptography.Algorithms&quot; und &quot;Platform:System.Security.Cryptography.Algorithms.dll&quot; ist ein Konflikt aufgetreten.  NETSDK1033: &quot;Platform:System.Security.Cryptography.Algorithms.dll&quot; wird ausgew„hlt, weil AssemblyVersion &quot;4.3.0.0&quot; h”her ist als &quot;4.2.1.0&quot;. [D:\tmp\sandcastle\Working\GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Zwischen &quot;Reference:System.Security.Cryptography.Encoding&quot; und &quot;Platform:System.Security.Cryptography.Encoding.dll&quot; ist ein Konflikt aufgetreten.  NETSDK1033: &quot;Platform:System.Security.Cryptography.Encoding.dll&quot; wird ausgew„hlt, weil AssemblyVersion &quot;4.0.2.0&quot; h”her ist als &quot;4.0.1.0&quot;. [D:\tmp\sandcastle\Working\GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Zwischen &quot;Reference:System.Security.Cryptography.Primitives&quot; und &quot;Platform:System.Security.Cryptography.Primitives.dll&quot; ist ein Konflikt aufgetreten.  NETSDK1033: &quot;Platform:System.Security.Cryptography.Primitives.dll&quot; wird ausgew„hlt, weil AssemblyVersion &quot;4.0.2.0&quot; h”her ist als &quot;4.0.1.0&quot;. [D:\tmp\sandcastle\Working\GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Zwischen &quot;Reference:System.Security.Cryptography.X509Certificates&quot; und &quot;Platform:System.Security.Cryptography.X509Certificates.dll&quot; ist ein Konflikt aufgetreten.  NETSDK1033: &quot;Platform:System.Security.Cryptography.X509Certificates.dll&quot; wird ausgew„hlt, weil AssemblyVersion &quot;4.1.2.0&quot; h”her ist als &quot;4.1.1.0&quot;. [D:\tmp\sandcastle\Working\GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj]
+GenerateBindingRedirects:
+  Keine vorgeschlagenen BindingRedirect-Eintr„ge von ResolveAssemblyReferences.
+GenerateRefInfo:
+  Microsoft.Build (v15.9.21+g9802d43bc3)
+  &#184; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 67 assemblies for reflection and 162 dependency assemblies.
+  Using automatic redirect &#39;PCBI.API_Library, Version=15.0.0.0, Culture=neutral, PublicKeyToken=0d90fb8168316e68&#39; in place of &#39;PCBI.API_Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0d90fb8168316e68&#39;
+  Using automatic redirect &#39;PCBI.HtmlReportTools_Library, Version=15.0.0.0, Culture=neutral, PublicKeyToken=0d90fb8168316e68&#39; in place of &#39;PCBI.HtmlReportTools_Library, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d90fb8168316e68&#39;
+  Wrote information on 250 namespaces, 2271 types, and 21245 members
+  Merging duplicate type and member information
+  Merged 10 duplicate type(s) and 33 duplicate member(s)
+Die Erstellung von Projekt &quot;D:\tmp\sandcastle\Working\GenerateRefInfo-a670f1ff-5119-425b-9161-9be141e1a71e.proj&quot; ist abgeschlossen (Standardziele).
+    Last step completed in 00:00:06,4287
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:01,6637
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:01,0359
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,7643
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:01,2644
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GeneralData&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GetProductionToolType&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GetStepName(PCBI_ProductionTool_Editor.Data.XMLSettings)&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#Name&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#ShowView(System.Boolean,PCBI.Automation.IPCBIWindow,PCBI_ProductionTool_Editor.Data.XMLSettings)&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UpdateSettings(PCBI_ProductionTools_Editor.Data.ProductionToolDesignSpecifics)&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UsedStep&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UserControlToReUse&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GeneralData&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GetProductionToolType&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GetStepName(PCBI_ProductionTool_Editor.Data.XMLSettings)&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#ShowView(System.Boolean,PCBI.Automation.IPCBIWindow,PCBI_ProductionTool_Editor.Data.XMLSettings)&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UpdateSettings(PCBI_ProductionTools_Editor.Data.ProductionToolDesignSpecifics)&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UsedStep&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UserControlToReUse&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneSolderFrameDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GeneralData&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneSolderFrameDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#Name&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneSolderFrameDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UsedStep&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneSolderFrameDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UserControlToReUse&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneWorkpieceCarrier.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GeneralData&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneWorkpieceCarrier.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#Name&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneWorkpieceCarrier.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UsedStep&#39;
+D:\tmp\sandcastle\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;P:PCBI_ProductionTools_Editor.Data.OneWorkpieceCarrier.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#UserControlToReUse&#39;
+    Last step completed in 00:00:02,6171
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,6540
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,7461
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0500
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\tmp\sandcastle\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0160
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MachineLearning.Component.#ctor(System.Collections.Generic.List{MachineLearning.Models.Pad})] Unknown reference link target &#39;T:MachineLearning.Models.Pad&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MachineLearning.Component.#ctor(System.Collections.Generic.List{System.Tuple{MachineLearning.Models.Pad,PCBI.MathUtils.RectangleD,PCBI.Automation.IPin}})] Unknown reference link target &#39;T:MachineLearning.Models.Pad&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MachineLearning.Component.FillLocationList(System.Collections.Generic.List{MachineLearning.Models.Pad})] Unknown reference link target &#39;T:MachineLearning.Models.Pad&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MachineLearning.Component.FillLocationList(System.Collections.Generic.List{System.Tuple{MachineLearning.Models.Pad,PCBI.MathUtils.RectangleD,PCBI.Automation.IPin}})] Unknown reference link target &#39;T:MachineLearning.Models.Pad&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MachineLearning.PanelFinder.StartSearchingForPanels(PCBI.Automation.IODBLayer,System.Collections.Generic.List{PCBI.Automation.IODBObject},System.Boolean)] Unknown reference link target &#39;T:MachineLearning.Models.MatchResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MachineLearning.PanelFinder.StartSearchingForPanels(PCBI.Automation.IODBLayer,System.Collections.Generic.List{PCBI.Automation.IODBObject},System.Collections.Generic.List{MachineLearning.Models.MatchResult}@,System.Int32)] Unknown reference link target &#39;T:MachineLearning.Models.MatchResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.Automation.DBFilter.DBFilterInfo.#ctor(System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.Automation.ResourcesOpen.PackageEdit.UserControlPackagePreview] Unknown reference link target &#39;T:PCB_Investigator.Automation.ResourcesOpen.UserControls.BaseViewControl&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.Automation.ResourcesOpen.PackageEdit.UserControlPackagePreview] Unknown reference link target &#39;M:PCB_Investigator.Automation.ResourcesOpen.UserControls.BaseViewControl.ZoomHome(System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.Automation.ResourcesOpen.PackageEdit.UserControlPackagePreview] Unknown reference link target &#39;M:PCB_Investigator.Automation.ResourcesOpen.UserControls.BaseViewControl.ZoomHome(System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.PropertyGrid.MyLinkEditor] Unknown reference link target &#39;!:Overload:System.Drawing.Design.IconEditor.EditValue&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.PropertyGrid.MyLinkEditor] Invalid reference link target &#39;!:Overload:System.Drawing.Design.IconEditor.EditValue&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.PCBIControls.PropertyGrid.MyLinkEditor] Unknown reference link target &#39;!:Overload:System.Drawing.Design.IconEditor.EditValue&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.PCBIControls.PropertyGrid.MyLinkEditor] Invalid reference link target &#39;!:Overload:System.Drawing.Design.IconEditor.EditValue&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.PropertyGrid.MyLinkEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)] Unknown reference link target &#39;!:Overload:System.Drawing.Design.IconEditor.EditValue&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.PropertyGrid.MyLinkEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)] Invalid reference link target &#39;!:Overload:System.Drawing.Design.IconEditor.EditValue&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.PropertyGrid.MyLinkEditor.GetPaintValueSupported(System.ComponentModel.ITypeDescriptorContext)] Unknown reference link target &#39;!:Overload:System.Drawing.Design.UITypeEditor.PaintValue&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.PropertyGrid.MyLinkEditor.GetPaintValueSupported(System.ComponentModel.ITypeDescriptorContext)] Invalid reference link target &#39;!:Overload:System.Drawing.Design.UITypeEditor.PaintValue&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.PropertyGrid.PartLibEntryPropertyClass.GetPropertyOwner(System.ComponentModel.PropertyDescriptor)] Member ID URL resolver service failed.  No further look ups will be performed for this build.
+Reason: Der Remoteserver hat einen Fehler zur&#252;ckgegeben: (403) Unzul&#228;ssig.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:PCB_Investigator.PCBIControls.Ribbon] Unknown reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:PCB_Investigator.PCBIControls.Ribbon] Invalid reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.Ribbon] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.ActiveTab&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.Ribbon] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.ActualBorderMode&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.Ribbon] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.CaptionButtonsVisible&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCB_Investigator.PCBIControls.Ribbon.Ribbon] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.ActiveTab&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCB_Investigator.PCBIControls.Ribbon.Ribbon] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.ActualBorderMode&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCB_Investigator.PCBIControls.Ribbon.Ribbon] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.CaptionButtonsVisible&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [E:PCB_Investigator.PCBIControls.Ribbon.Ribbon.ActiveTabChanged] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.ActiveTab&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [E:PCB_Investigator.PCBIControls.Ribbon.Ribbon.ActualBorderModeChanged] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.ActualBorderMode&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [E:PCB_Investigator.PCBIControls.Ribbon.Ribbon.CaptionButtonsVisibleChanged] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.Ribbon.CaptionButtonsVisible&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonButton] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonButton] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonButton] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonButton] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCB_Investigator.PCBIControls.Ribbon.RibbonButton.CheckOnClick] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCB_Investigator.PCBIControls.Ribbon.RibbonButton.CheckOnClick] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCaptionButton] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCaptionButton] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCaptionButton] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCaptionButton] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Unknown reference link target &#39;!:CheckBox Check Changed&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Invalid reference link target &#39;!:CheckBox Check Changed&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Unknown reference link target &#39;!:CheckBox Check Changing&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Invalid reference link target &#39;!:CheckBox Check Changing&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Unknown reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Invalid reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Unknown reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Invalid reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Unknown reference link target &#39;!:CheckBox Check Changed&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Invalid reference link target &#39;!:CheckBox Check Changed&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Unknown reference link target &#39;!:CheckBox Check Changing&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Invalid reference link target &#39;!:CheckBox Check Changing&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Unknown reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Invalid reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Unknown reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox] Invalid reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [E:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox.CheckBoxCheckChanged] Unknown reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [E:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox.CheckBoxCheckChanged] Invalid reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [E:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox.CheckBoxCheckChanging] Unknown reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [E:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox.CheckBoxCheckChanging] Invalid reference link target &#39;!:CheckBox Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox.OnCheckChanged(System.EventArgs)] Unknown reference link target &#39;!:CheckBox Check Changed&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox.OnCheckChanged(System.EventArgs)] Invalid reference link target &#39;!:CheckBox Check Changed&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox.OnCheckChanging(System.ComponentModel.CancelEventArgs)] Unknown reference link target &#39;!:CheckBox Check Changing&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.Ribbon.RibbonCheckBox.OnCheckChanging(System.ComponentModel.CancelEventArgs)] Invalid reference link target &#39;!:CheckBox Check Changing&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Unknown reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Invalid reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Unknown reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Invalid reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Unknown reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser] Invalid reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser.SmallImageColorHeight] Unknown reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCB_Investigator.PCBIControls.Ribbon.RibbonColorChooser.SmallImageColorHeight] Invalid reference link target &#39;!:SmallImage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonComboBox] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.RibbonTextBox.TextBoxTextBounds&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonComboBox] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.RibbonTextBox.TextBoxTextBounds&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonDescriptionMenuItem] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonDescriptionMenuItem] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonDescriptionMenuItem] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonDescriptionMenuItem] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonHost] Unknown reference link target &#39;!:SizeModeChanged&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonHost] Invalid reference link target &#39;!:SizeModeChanged&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.PCBIControls.Ribbon.RibbonHost] Unknown reference link target &#39;!:SizeModeChanged&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCB_Investigator.PCBIControls.Ribbon.RibbonHost] Invalid reference link target &#39;!:SizeModeChanged&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.Ribbon.RibbonHost.OnSizeModeChanging(PCB_Investigator.PCBIControls.Ribbon.RibbonHostSizeModeHandledEventArgs@)] Unknown reference link target &#39;!:SizeModeChanged&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCB_Investigator.PCBIControls.Ribbon.RibbonHost.OnSizeModeChanging(PCB_Investigator.PCBIControls.Ribbon.RibbonHostSizeModeHandledEventArgs@)] Invalid reference link target &#39;!:SizeModeChanged&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonMouseSensor] Unknown reference link target &#39;!:ItemsLimit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonMouseSensor] Invalid reference link target &#39;!:ItemsLimit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonMouseSensor] Unknown reference link target &#39;!:ItemsLimit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonMouseSensor] Invalid reference link target &#39;!:ItemsLimit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCB_Investigator.PCBIControls.Ribbon.RibbonMouseSensor.Items] Unknown reference link target &#39;!:ItemsLimit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCB_Investigator.PCBIControls.Ribbon.RibbonMouseSensor.Items] Invalid reference link target &#39;!:ItemsLimit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbMenuItem] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbMenuItem] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbMenuItem] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbMenuItem] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbOptionButton] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbOptionButton] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbOptionButton] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbOptionButton] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbRecentItem] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbRecentItem] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbRecentItem] Unknown reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonOrbRecentItem] Invalid reference link target &#39;!:Checked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCB_Investigator.PCBIControls.Ribbon.RibbonTab] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.RibbonTab.TabBounds&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCB_Investigator.PCBIControls.Ribbon.RibbonTab] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.RibbonTab.TabBounds&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCB_Investigator.PCBIControls.Ribbon.RibbonTab.Bounds] Unknown reference link target &#39;P:PCB_Investigator.PCBIControls.Ribbon.RibbonTab.TabBounds&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.IPCBIWindow.GetCurrentRuleSets] Unknown reference link target &#39;T:PCBI.Automation.Rules.DesignRulesSet&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.IPCBIWindow.GetRuleSetting(PCBI.Plugin.Interfaces.IPCBIAnalysis)] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.IPCBIWindow.GetStandardRuleSets] Unknown reference link target &#39;T:PCBI.Automation.Rules.DesignRulesSet&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.IPCBIWindow.ImportRuleSets(PCBI.Plugin.Interfaces.IFileData)] Unknown reference link target &#39;T:PCBI.Automation.Rules.DesignRulesSet&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.IPCBIWindow.SetRuleSetting(PCBI.Automation.Rules.RulesContainer)] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.IPCBIWindow.ShowAndCreatePackageDefinition(System.String,System.String,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.IPCBIWindow.ShowAndCreatePackageDefinitionNonModal(System.String,System.String,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.IPCBIWindow.ShowAndGetPartDefinition(System.String,System.String,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter},PCBI.Automation.IPackageSpecificsD)] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.SyncService.#ctor(EasyLogix.Libraries.Logging.ILogger)] Unknown reference link target &#39;T:EasyLogix.Libraries.Logging.ILogger&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.Interfaces.InterfacePCBIWindow.GetCurrentRuleSets] Unknown reference link target &#39;T:PCBI.Automation.Rules.DesignRulesSet&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.Interfaces.InterfacePCBIWindow.GetRuleSetting(PCBI.Plugin.Interfaces.IPCBIAnalysis)] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.Interfaces.InterfacePCBIWindow.GetStandardRuleSets] Unknown reference link target &#39;T:PCBI.Automation.Rules.DesignRulesSet&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.Interfaces.InterfacePCBIWindow.ImportRuleSets(PCBI.Plugin.Interfaces.IFileData)] Unknown reference link target &#39;T:PCBI.Automation.Rules.DesignRulesSet&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Automation.Interfaces.InterfacePCBIWindow.SetRuleSetting(PCBI.Automation.Rules.RulesContainer)] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI.Plugin.AutomationLogger] Unknown reference link target &#39;T:EasyLogix.Libraries.Logging.ILogger&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.AutomationLogger.Log(EasyLogix.Libraries.Logging.LogLevel,System.String,System.Exception,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})] Unknown reference link target &#39;T:EasyLogix.Libraries.Logging.LogLevel&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.AutomationLogger.Log(EasyLogix.Libraries.Logging.LogLevel,System.String,System.Exception,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})] Unknown reference link target &#39;M:EasyLogix.Libraries.Logging.ILogger.Log(EasyLogix.Libraries.Logging.LogLevel,System.String,System.Exception,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPackageLibraryListControl.Activate(PCBI.Automation.IPCBIWindow,System.String,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPartLibraryListControl.Activate(PCBI.Automation.IPCBIWindow,System.String,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPartLibraryListControl.GetCurrentFilter] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPCBIAnalysis.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPluginPackageLibrary.GetPackages(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPluginPackageLibrary.GetPackages(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPluginPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPluginPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPluginPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPluginPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPluginPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI.Plugin.Interfaces.IPluginPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_3D.BaseViewModel.Camera] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Camera&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_3D.BaseViewModel.RenderTechnique] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.RenderTechnique&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_3D.Control3D.GetCMPModels] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_3D.Control3D.GetCMPTriangles] Unknown reference link target &#39;T:SharpDX.BoundingBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_3D.Control3D.GetCMPTriangles] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Geometry3D.Triangle&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_3D.Control3D.GetPCBModelBounds] Unknown reference link target &#39;T:SharpDX.BoundingBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_3D.Control3D.RayHitsComponent(SharpDX.Ray,System.Boolean,System.String@)] Unknown reference link target &#39;T:SharpDX.Ray&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_3D.MainViewModel3D.MainItems] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3DCollection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_3D.MainViewModel3D.PCBBoundingBox] Unknown reference link target &#39;T:SharpDX.BoundingBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.ICMPModel&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.Bounds&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.BoundsLocation&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Children&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.DepthBias&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.Geometry&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Element3D.IsAttached&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Element3D.IsRendering&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.IsThrowingShadow&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Model3D.ModelMatrix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.CompositeModel3D.PauseObservation&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Model3D.TotalModelMatrix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Model3D.Transform&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Attach(HelixToolkit.Wpf.SharpDX.IRenderHost)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.ClearChildren&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Detach&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Dispose&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.FindBounds(System.Int32,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.GetTriangles(SharpDX.Matrix,System.Collections.Generic.List{HelixToolkit.Wpf.SharpDX.Geometry3D.Triangle}@)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.HitTest(SharpDX.Ray,System.Collections.Generic.List{HelixToolkit.Wpf.SharpDX.HitTestResult}@)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.Element3D.InvalidateRender&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.IsRayIntersecting(SharpDX.Matrix,SharpDX.Ray,HelixToolkit.Wpf.SharpDX.CompositeModel3D@,System.Int32,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.GeometryModel3D.OnMouse3DDown(System.Object,System.Windows.RoutedEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.GeometryModel3D.OnMouse3DMove(System.Object,System.Windows.RoutedEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.GeometryModel3D.OnMouse3DUp(System.Object,System.Windows.RoutedEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.Model3D.PopMatrix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.Model3D.PushMatrix(SharpDX.Matrix)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Render(HelixToolkit.Wpf.SharpDX.RenderContext)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.SetGlobalImage(System.Windows.Media.Imaging.BitmapSource)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Triangles(HelixToolkit.Wpf.SharpDX.Geometry3D)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.Element3D.Update(System.TimeSpan)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;E:HelixToolkit.Wpf.SharpDX.GeometryModel3D.MouseDown3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;E:HelixToolkit.Wpf.SharpDX.GeometryModel3D.MouseMove3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;E:HelixToolkit.Wpf.SharpDX.GeometryModel3D.MouseUp3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Attach(HelixToolkit.Wpf.SharpDX.IRenderHost)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.ClearChildren&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Detach&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Dispose&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.FindBounds(System.Int32,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.GetTriangles(SharpDX.Matrix,System.Collections.Generic.List{HelixToolkit.Wpf.SharpDX.Geometry3D.Triangle}@)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.HitTest(SharpDX.Ray,System.Collections.Generic.List{HelixToolkit.Wpf.SharpDX.HitTestResult}@)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.Element3D.InvalidateRender&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.IsRayIntersecting(SharpDX.Matrix,SharpDX.Ray,HelixToolkit.Wpf.SharpDX.CompositeModel3D@,System.Int32,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.GeometryModel3D.OnMouse3DDown(System.Object,System.Windows.RoutedEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.GeometryModel3D.OnMouse3DMove(System.Object,System.Windows.RoutedEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.GeometryModel3D.OnMouse3DUp(System.Object,System.Windows.RoutedEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.Model3D.PopMatrix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.Model3D.PushMatrix(SharpDX.Matrix)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Render(HelixToolkit.Wpf.SharpDX.RenderContext)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.SetGlobalImage(System.Windows.Media.Imaging.BitmapSource)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Triangles(HelixToolkit.Wpf.SharpDX.Geometry3D)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;M:HelixToolkit.Wpf.SharpDX.Element3D.Update(System.TimeSpan)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.Bounds&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.BoundsLocation&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.CompositeModel3D.Children&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.DepthBias&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.Geometry&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Element3D.IsAttached&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Element3D.IsRendering&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Element3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.GeometryModel3D.IsThrowingShadow&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Model3D.ModelMatrix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.CompositeModel3D.PauseObservation&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Model3D.TotalModelMatrix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.Model3D.Transform&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.Model3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;E:HelixToolkit.Wpf.SharpDX.GeometryModel3D.MouseDown3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;E:HelixToolkit.Wpf.SharpDX.GeometryModel3D.MouseMove3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;E:HelixToolkit.Wpf.SharpDX.GeometryModel3D.MouseUp3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:PCBI_3D.DataClasses.CMPModel] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.GeometryModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_3D.DataClasses.CMPModel.Name] Unknown reference link target &#39;P:HelixToolkit.Wpf.SharpDX.ICMPModel.Name&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_3D.DataClasses.ElementSorter.Sort(System.Windows.Media.Media3D.Point3D,HelixToolkit.Wpf.SharpDX.CompositeModel3D)] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.CompositeModel3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_3D.Exporter.Geometry.Geom] Unknown reference link target &#39;T:HelixToolkit.Wpf.SharpDX.MeshGeometry3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_3Dx.StepPreview.CameraController.SetCameraView(HelixToolkit.Wpf.HelixViewport3D,PCBI_3Dx.StepPreview.CameraController.eCameraViews,System.Double)] Unknown reference link target &#39;T:HelixToolkit.Wpf.HelixViewport3D&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_AOICheck.AoiSetting.AOIRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_AOICheck.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_BareBoardDRC.BareBoardResultVisualizer.DrawError(PCBI_BareBoardDRC.XMLClasses.Error,System.Drawing.Graphics,System.Drawing.Size,PCBI.MathUtils.RectangleD,PCBI.Automation.IPCBIWindow)] Unknown reference link target &#39;T:PCBI_BareBoardDRC.XMLClasses.Error&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_BareBoardDRC.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_BareBoardDRC.PCBI_Connection.SetRules(PCBI.Automation.Rules.RulesContainer)] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_CapacityCalculator.CapacityImageService.CreateImage(PCBI_CapacityCalculator.Report.SubCapacityResult,System.Drawing.Size,System.Nullable{System.Drawing.Size})] Unknown reference link target &#39;T:PCBI_CapacityCalculator.Report.SubCapacityResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_CapacityCalculator.CapacitySetting.CapacityRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_CapacityCalculator.FormSettings.#ctor(PCBI.Automation.Rules.RulesContainer)] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_CapacityCalculator.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_CCZ_Import.PluginCCZImport.ImportCCZ(System.String,PCBI_CCZ_Import.CCZImportSettingsV2,PCBI_CCZ_Import.Helper.ErrorHandler,PCBI_CCZ_Import.Helper.StatisticsHelper)] Unknown reference link target &#39;T:PCBI_CCZ_Import.Helper.ErrorHandler&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_CCZ_Import.PluginCCZImport.ImportCCZ(System.String,PCBI_CCZ_Import.CCZImportSettingsV2,PCBI_CCZ_Import.Helper.ErrorHandler,PCBI_CCZ_Import.Helper.StatisticsHelper)] Unknown reference link target &#39;T:PCBI_CCZ_Import.Helper.StatisticsHelper&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ComponentConnect.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ComponentsAnalysis.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ComponentsAnalysis.Analysis.ComponentDistanceAnalysis.Analyse(PCBI.Automation.IPCBIWindow,PCBI_ComponentsAnalysis.ComponentDistanceAnalysisSettingsParams)] Unknown reference link target &#39;T:PCBI_ComponentsAnalysis.Models.ComponentAnalysisResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_CreepageDistances.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_DFM_Analysis.DFMDataProvider.CMPObject.ToXMLObject] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_DFM_Analysis.DFMDataProvider.ODBObject.ToXMLObject] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_DFM_Analysis.PCBIDFMAnalysis.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.DFMAnalysisResult.BadmarksResult] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.DFMAnalysisResult.FiducialResult] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.DFMAnalysisResult.PanelResult] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.DFMAnalysisResult.PasteResult] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.DFMAnalysisResult.TestpointResult] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.DFMAnalysisResult.THTResult] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.DFMAnalysisResult.TraceUnderResult] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_DFM_Analysis.Analysis.FiducialAnalysis.Fiducial_Analysis.Analyse(PCBI.Automation.IPCBIWindow,PCBI_DFM_Analysis.Analysis.FiducialAnalysis.FiducialAnalysisSettingsParams,System.Collections.Generic.Dictionary{System.String,PCBI.Automation.ICMPObject})] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.FiducialAnalysis.FiducialAnalysisSettings] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckSetting&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.FiducialAnalysis.FiducialCheck] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.FiducialAnalysis.FiducialCheck.CompViolations] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.FiducialAnalysis.FiducialObj.CopperPad] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.FiducialAnalysis.FiducialObj.MaskPad] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.PanelAnalysis.PanelAnalysisSettings] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckSetting&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.PanelAnalysis.PanelCompCheck] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.PanelAnalysis.PanelCompCheck.CmpObject1] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.PanelAnalysis.PanelCompCheck.CmpObject2] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.PasteAnalysis.PasteAnalysisSettings] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckSetting&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.PasteAnalysis.PasteCheck] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.PasteAnalysis.PasteCheck.DFMCMP] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.PasteAnalysis.PasteCheck.DFMPaste] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.PasteAnalysis.PasteCheck.DFMPin] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.TestpointAnalysis.TestpointAnalysisSettings] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckSetting&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.TestpointAnalysis.TestpointCheck] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.TestpointAnalysis.TestpointCheck.ErrorObject] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLBase&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.TestpointAnalysis.TestpointCheck.Testpoint] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLBase&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_DFM_Analysis.Analysis.THTAnalysis.THT_Analysis.Analyse(PCBI.Automation.IPCBIWindow,PCBI_DFM_Analysis.Analysis.THTAnalysis.THTAnalysisSettingsParams,System.Collections.Generic.Dictionary{System.String,PCBI.Automation.ICMPObject})] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMStepCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.THTAnalysis.THTAnalysisSettings] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckSetting&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.THTAnalysis.THTCheck] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.THTAnalysis.THTCheck.AcceptableCMPs] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.THTAnalysis.THTCheck.ListOfPinClusterLines] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLLine&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.THTAnalysis.THTCheck.NotAcceptableCMPs] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.THTAnalysis.THTCheck.THT_Cmp] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.TraceUnderAnalysis.TraceUnderAnalysisSettings] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckSetting&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_DFM_Analysis.Analysis.TraceUnderAnalysis.TraceUnderCheck] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.DFMCheckResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFM_Analysis.Analysis.TraceUnderAnalysis.TraceUnderCheck.CMP] Unknown reference link target &#39;T:PCBI_DFM_Analysis.Interfaces.XMLComponent&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_DFTPreperation_Editor.DFTSetting.PrintingSetting] Unknown reference link target &#39;T:PCBI_DFTPreperation_Editor.Exports.TP_Foil.PrintingSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_Dielectric_Strength_Check.DielectricStrengthAnalyzer.ViolatingDistances] Unknown reference link target &#39;T:PCBI_DielectricStrength_Analysis.Models.DistanceViolation&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Dispensing_Analysis.PCBIConnectionClass.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_HazardAnalysis.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Impedance_Analysis.ImpedanceImageService.#ctor(PCBI_Impedance_Analysis.Model.ImpedanceAnalysisResult,PCBI.Automation.IPCBIWindow,PCBI.Automation.IStep,System.Boolean,System.Drawing.Size,System.Nullable{System.Drawing.Size})] Unknown reference link target &#39;T:PCBI_Impedance_Analysis.Model.ImpedanceAnalysisResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Impedance_Analysis.PCBIConnection_Impedance.GetAnalysisResult] Unknown reference link target &#39;T:PCBI_Impedance_Analysis.Model.ImpedanceAnalysisResult&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Impedance_Analysis.PCBIConnection_Impedance.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_InstanceSync.FormListViewCompareHook.#ctor(PCB_Investigator.PCBIControls.ListViewFilter.ListViewFilter,PCBI_InstanceSync.ListViewCompareSettings,PCBI_InstanceSync.Model.ListViewCompareGroupInfo)] Unknown reference link target &#39;T:PCBI_InstanceSync.Model.ListViewCompareGroupInfo&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiCustomLibraries.ApiCustomLibrary.#ctor(PCBI_PartExpert.ApiCustomLibraries.Settings.CustomApiSettings)] Unknown reference link target &#39;T:PCBI_PartExpert.ApiCustomLibraries.Settings.CustomApiSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiCustomLibraries.ApiCustomLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiCustomLibraries.ApiCustomLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiCustomLibraries.ApiCustomLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiCustomLibraries.ApiCustomLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiCustomLibraries.ApiCustomLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiCustomLibraries.ApiCustomLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.AvnetPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.AvnetPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.AvnetPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.AvnetPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.AvnetPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.AvnetPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.DigikeyPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.DigikeyPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.DigikeyPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.DigikeyPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.DigikeyPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.DigikeyPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.MouserPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.MouserPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.MouserPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.MouserPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.MouserPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.MouserPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.OctopartPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.OctopartPartLibrary.GetPartCount(PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.OctopartPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.OctopartPartLibrary.GetParts(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.OctopartPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PartExpert.ApiLibraries.OctopartPartLibrary.GetPartsSimple(System.Nullable{System.Int32},System.Nullable{System.Int32},PCBI.Plugin.Interfaces.PluginLibrary.BooleanOperator,System.Collections.Generic.List{PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter})] Unknown reference link target &#39;T:PCBI.Plugin.Interfaces.PluginLibrary.FilterParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_PDF_Sync.ExternalDataLayerManagment.ExternalDataLayerPDF.#ctor(PdfiumViewer.PdfDocument,System.String,System.Int32)] Unknown reference link target &#39;T:PdfiumViewer.PdfDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_Physics.Simulation.SimResult.SimNotes.Notes] Unknown reference link target &#39;T:PCBI_Physics.iSimNote&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GetStepName(PCBI_ProductionTool_Editor.Data.XMLSettings)] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#ShowView(System.Boolean,PCBI.Automation.IPCBIWindow,PCBI_ProductionTool_Editor.Data.XMLSettings)] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_ProductionTools_Editor.Data.Class_BasicDefinition.UsedXMLProductionAidElements] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLProductionAidElement&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition] Unknown reference link target &#39;T:GlobalizedPropertyGrid.GlobalizedObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.FSandVZsetting] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.FSandVZSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.FSDefinitionList] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLDrillList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#GetStepName(PCBI_ProductionTool_Editor.Data.XMLSettings)] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.PCBI_ProductionTools_Editor#Data#SimpleHelperInterface#ShowView(System.Boolean,PCBI.Automation.IPCBIWindow,PCBI_ProductionTool_Editor.Data.XMLSettings)] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.RoutingSetting] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.RoutingValues&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_ProductionTools_Editor.Data.OneAdapterDefinition.StampSettings] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.SupportStamps&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.OneSolderFrameDefinition.#ctor(System.String,System.Collections.Generic.List{PCBI_ProductionTool_Editor.Data.XMLProductionAidElement})] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLProductionAidElement&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_ProductionTools_Editor.Data.OneSolderFrameDefinition.StampSettingsDownHolder] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.SupportStamps&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.OneSupportPlateDefinition.#ctor(System.String,System.Collections.Generic.List{PCBI_ProductionTool_Editor.Data.XMLProductionAidElement})] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLProductionAidElement&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.OneWorkpieceCarrier.#ctor(System.String,System.Collections.Generic.List{PCBI_ProductionTool_Editor.Data.XMLProductionAidElement})] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLProductionAidElement&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_ProductionTools_Editor.Data.OneWorkpieceCarrier.PressFitTool] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLProductionAidElement&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_ProductionTools_Editor.Data.ProductionToolDesignSpecifics.AllCoatingSettings] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.OneCoatingDefinition&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.SimpleHelperInterface.GetStepName(PCBI_ProductionTool_Editor.Data.XMLSettings)] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_ProductionTools_Editor.Data.SimpleHelperInterface.ShowView(System.Boolean,PCBI.Automation.IPCBIWindow,PCBI_ProductionTool_Editor.Data.XMLSettings)] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLSettings&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_ProductionTools_Editor.Data.SubAdapterDefinitionBuild] Unknown reference link target &#39;T:GlobalizedPropertyGrid.GlobalizedObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_ProductionTools_Editor.Data.SubAdapterDefinitionInfo] Unknown reference link target &#39;T:GlobalizedPropertyGrid.GlobalizedObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_ProductionTools_Editor.Data.SubAdapterDefinitionSpecials] Unknown reference link target &#39;T:GlobalizedPropertyGrid.GlobalizedObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_ProductionTools_Editor.Data.SubAdapterDefinitionWiring] Unknown reference link target &#39;T:GlobalizedPropertyGrid.GlobalizedObject&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:PCBI_ProductionTools_Editor.Data.TypeDependingInterface.DefaultProductionToolElements] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.XMLProductionAidElement&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PCBI_ProductionTools_Editor.FormsAndControls.SolderFrames.UserControlDownHolder.OnDefaultChanged] Unknown reference link target &#39;T:PCBI_ProductionTool_Editor.Data.OneStamp&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Script.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_StencilAnalysis.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Step_Export.PDF_Export.Export(System.String,STEP_LIB.ExportOptionAll)] Unknown reference link target &#39;T:STEP_LIB.ExportOptionAll&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Step_Export.PDF_Export.ShowOptionDlg] Unknown reference link target &#39;T:STEP_LIB.ExportOptionAll&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Step_Export.StepExport.Export(System.String,STEP_LIB.ExportOptionAll)] Unknown reference link target &#39;T:STEP_LIB.ExportOptionAll&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Step_Export.StepExport.Export(System.String,STEP_LIB.ExportOptionAll,System.String)] Unknown reference link target &#39;T:STEP_LIB.ExportOptionAll&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_Step_Export.StepExport.ShowOptionDlg] Unknown reference link target &#39;T:STEP_LIB.ExportOptionAll&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:PCBI_SVG.ODB_To_SVG_Converter.doc] Unknown reference link target &#39;T:Svg.SvgDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_SVG.ODB_To_SVG_Converter.WriteSeperate(System.String,Svg.SvgDocument)] Unknown reference link target &#39;T:Svg.SvgDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_SVG.SVGExporter.DrawSVG(PCBI.Automation.IPCBIWindow,PCBI.Automation.IStep,PCBI_SVG.SVGDrawSettings,PCBI.MathUtils.RectangleD,System.Boolean)] Unknown reference link target &#39;T:Svg.SvgDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_SVG.SVGExporter.DrawSVG(PCBI.Automation.IPCBIWindow,PCBI.Automation.IStep,PCBI_SVG.SVGDrawSettings,PCBI.MathUtils.RectangleD,System.Single,System.Boolean)] Unknown reference link target &#39;T:Svg.SvgDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_SVG.SVGExporter.DrawSVG(PCBI.Automation.IPCBIWindow,PCBI.Automation.IStep,PCBI_SVG.SVGDrawSettings,System.Boolean)] Unknown reference link target &#39;T:Svg.SvgDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_SVG.SVGExporter.DrawSVG(PCBI.Automation.IPCBIWindow,PCBI.Automation.IStep,PCBI_SVG.SVGDrawSettings,System.Single,System.Boolean)] Unknown reference link target &#39;T:Svg.SvgDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_SVG.ExternalDataLayerManagment.ExternalDataLayerSVG.#ctor(Svg.SvgDocument,System.String,PCBI.Automation.IPCBIWindow)] Unknown reference link target &#39;T:Svg.SvgDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_TestpointAnalysis.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PCBI_TombstoneAnalysis.PCBI_Connection.GetStandardRules] Unknown reference link target &#39;T:PCBI.Automation.Rules.RulesContainer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;P:ZXing.BarcodeWriterGeneric.Encoder&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;P:ZXing.BarcodeWriterGeneric.Format&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;P:ZXing.BarcodeWriterGeneric.Options&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;P:ZXing.BarcodeWriter`1.Renderer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;M:ZXing.BarcodeWriterGeneric.Encode(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;M:ZXing.BarcodeWriter`1.Write(ZXing.Common.BitMatrix)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;M:ZXing.BarcodeWriter`1.Write(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;M:ZXing.BarcodeWriterGeneric.Encode(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;M:ZXing.BarcodeWriter`1.Write(ZXing.Common.BitMatrix)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;M:ZXing.BarcodeWriter`1.Write(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;P:ZXing.BarcodeWriterGeneric.Encoder&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;P:ZXing.BarcodeWriterGeneric.Format&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;P:ZXing.BarcodeWriterGeneric.Options&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriterGeneric&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;P:ZXing.BarcodeWriter`1.Renderer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.BarcodeWriterIPolyClass] Unknown reference link target &#39;T:ZXing.BarcodeWriter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:PluginBarcode.PCBI_BarcodeHandler.ToBitmap(ZXing.Rendering.PixelData)] Unknown reference link target &#39;T:ZXing.Rendering.PixelData&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.CropSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.Height&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.InversionSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.Matrix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.RotateSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.Width&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.crop(System.Int32,System.Int32,System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.getRow(System.Int32,System.Byte[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.invert&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.rotateCounterClockwise&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.RotateSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.rotateCounterClockwise45&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.RotateSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.ToString&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.crop(System.Int32,System.Int32,System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.getRow(System.Int32,System.Byte[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.invert&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.rotateCounterClockwise&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.RotateSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.rotateCounterClockwise45&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.RotateSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;M:ZXing.LuminanceSource.ToString&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.CropSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.Height&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.InversionSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.Matrix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.RotateSupported&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;P:ZXing.LuminanceSource.Width&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:PluginBarcode.PCBI_BarcodeHandler.testClass] Unknown reference link target &#39;T:ZXing.LuminanceSource&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:TemplateManager.TestCouponMetaData.ImageBaseString] Unknown reference link target &#39;T:PCBI_PanelBuilder.PanelTemplateManager.PropertyGridHelper.ExImage_Browser&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:TemplateManager.TestCouponMetaData.PathToCoupon] Unknown reference link target &#39;T:PCBI_PanelBuilder.PanelTemplateManager.PropertyGridHelper.ExString_Browser&#39;.
+Processed 25072 topic(s)
+503 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+SaveComponent: Waiting for the document writer task to finish (84 Website API file(s) remaining)...
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:03:18,6156
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; D:\tmp\sandcastle\Working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; D:\tmp\sandcastle\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; D:\tmp\sandcastle\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; D:\tmp\sandcastle\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; D:\tmp\sandcastle\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; D:\tmp\sandcastle\Working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; D:\tmp\sandcastle\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; D:\tmp\sandcastle\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; D:\tmp\sandcastle\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; D:\tmp\sandcastle\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; D:\tmp\sandcastle\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; D:\tmp\sandcastle\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; D:\tmp\sandcastle\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; D:\tmp\sandcastle\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; D:\tmp\sandcastle\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; D:\tmp\sandcastle\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; D:\tmp\sandcastle\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; D:\tmp\sandcastle\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; D:\tmp\sandcastle\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; D:\tmp\sandcastle\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; D:\tmp\sandcastle\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; D:\tmp\sandcastle\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; D:\tmp\sandcastle\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00,4225
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:08,4950
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 1000 files
+Copied 1500 files
+Copied 2000 files
+Copied 2500 files
+Copied 3000 files
+Copied 3500 files
+Copied 4000 files
+Copied 4500 files
+Copied 5000 files
+Copied 5500 files
+Copied 6000 files
+Copied 6500 files
+Copied 7000 files
+Copied 7500 files
+Copied 8000 files
+Copied 8500 files
+Copied 9000 files
+Copied 9500 files
+Copied 10000 files
+Copied 10500 files
+Copied 11000 files
+Copied 11500 files
+Copied 12000 files
+Copied 12500 files
+Copied 13000 files
+Copied 13500 files
+Copied 14000 files
+Copied 14500 files
+Copied 15000 files
+Copied 15500 files
+Copied 16000 files
+Copied 16500 files
+Copied 17000 files
+Copied 17500 files
+Copied 18000 files
+Copied 18500 files
+Copied 19000 files
+Copied 19500 files
+Copied 20000 files
+Copied 20500 files
+Copied 21000 files
+Copied 21500 files
+Copied 22000 files
+Copied 22500 files
+Copied 23000 files
+Copied 23500 files
+Copied 24000 files
+Copied 24500 files
+Copied 25000 files
+Copied 25500 files
+Copied 26000 files
+Copied 26500 files
+Copied 27000 files
+Copied 27500 files
+Copied 28000 files
+Copied 28500 files
+Copied 29000 files
+Copied 29500 files
+Copied 30000 files
+Copied 30500 files
+Copied 30622 files for the website content
+    Last step completed in 00:00:22,9969
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:08,1673
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 25.04.2024 16:35:49.  Total time: 00:04:23,0256
+
+</buildStep>
+</shfbBuild>

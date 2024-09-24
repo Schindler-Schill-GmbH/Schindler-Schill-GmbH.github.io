@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>InterfacePCBIWindow Properties</title><meta name="Title" content="Properties" /><meta name="Help.Id" content="Properties.T:PCBI.Automation.Interfaces.InterfacePCBIWindow" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="PCBI.Automation.Interfaces" /><meta name="guid" content="67b82127-6435-38d7-ab17-0afe78d1e2a5" /><meta name="tocFile" content="../toc/IDW0PB0A.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">PCB-Investigator Interface Documentation</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>Interface<wbr />PCBIWindow Properties</h1><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Properties</h2><div id="IDADASection"><table id="PropertyList" class="table is-hoverable"><tr><td><a href="c7d718f7-2217-b1e6-8f60-4f6f41045997.htm">ActivateCMPsOnNetSelect</a></td><td>
+            If a net will be selected and ActivateCMPsOnNetSelect is true the CMPs will be selected too.
+            </td></tr><tr><td><a href="0e695c56-1f15-151f-d62c-f818b5c93ea0.htm">BottomViewActive</a></td><td>
+            Get IPCBI-Window bottom view is activ.
+            </td></tr><tr><td><a href="60694f30-a284-e924-f1d5-ca17ef455a3b.htm">ControlBox</a></td><td>
+            Determines whether the PCBI-Window has a control menu box..
+            </td></tr><tr><td><a href="0e8e3e5e-4573-527d-8162-570b944417ec.htm">HasEmbeddedDesign</a></td><td>
+            Is this a embedded PCB-Investigator? Embedded PCB-Investigator can not load data without one project who is included in the exe directly.
+            Depending on the license it is possible to use the embedded PCB-Investigator with automation interface or without.
+            </td></tr><tr><td><a href="b94d4cd5-9c47-3e1a-60c5-daeac8e358af.htm">IColorsetting</a></td><td>
+            The ColorSettings are used for drawing.
+            </td></tr><tr><td><a href="bd0b7f76-d082-d14e-3397-0a62507a150a.htm">IsDisposed</a></td><td>
+            Is the main window disposed?
+            </td></tr><tr><td><a href="8e85cb2f-b31a-e7bb-429b-6f212f62318f.htm">IsPCBIVisible</a></td><td>
+            If this bool is true, the PCB-Investigator Window is visible.
+            </td></tr><tr><td><a href="2318dfaa-1b95-2f5d-2d60-c30ad74eaa5e.htm">JobIsLoaded</a></td><td>
+            True if a Job is loaded, false if no Job is loaded.
+            </td></tr><tr><td><a href="1444add8-e3ef-3e14-b80e-594afb91392f.htm">KeyPreview</a></td><td>
+            The KeyPreview from the parent mainform.
+            </td></tr><tr><td><a href="70418efa-b333-c03a-0821-be773958be03.htm">MainForm</a></td><td>
+            The form of the main controls.
+            </td></tr><tr><td><a href="424e2e48-9ea4-41c6-e206-64fde76e47c4.htm">MaximizeBox</a></td><td>
+            Determines whether the PCBI-Window has a maximize box in the upper-right corner of its caption bar.
+            </td></tr><tr><td><a href="ab789ae3-f02c-0889-4d5f-10a8cd7167f1.htm">MinimizeBox</a></td><td>
+            Determines whether the PCBI-Window has a minimize box in the upper-right corner of its caption bar.
+            </td></tr><tr><td><a href="0bf80442-6ce2-a906-3579-3a013f2977aa.htm">NeedToSave</a></td><td>
+            Set or get the internal bool for asking user to save the design changes at closing project.
+            This is only important if changes are made, some smaller changes do not set this bool. Most changes like delete of objects or add new objects set this bool immediately.
+            </td></tr><tr><td><a href="7099072d-480f-6431-5176-14c62af21bac.htm">OriginalJobPath</a></td><td>
+            Get or Set the real job path for imports in different formats e.g. IPC2581 or GenCad 1.4.
+            </td></tr><tr><td><a href="0ff219bb-0f45-95af-374b-a563aa0dad95.htm">ShowFreeTextInfoOnAllLayer</a></td><td>
+            Show info layer with free text entries. This option activate the "info on all layers" option too.
+            By deactivate it the internal value will be set to none info layer.
+            </td></tr><tr><td><a href="bb04f6f3-90d1-5a4a-f0d5-3eaa287a1d35.htm">ShowIcon</a></td><td>
+            Indicates whether the PCB-Icon is displayed in the title bar.
+            </td></tr><tr><td><a href="6d5d108c-c62a-e116-7bf4-b57f38ba902a.htm">ShowNetInfoOnAllLayer</a></td><td>
+            Activate the netname info for all layers. This option activate the "info on all layers" option too.
+            By deactivate this option it will set the internal value to none info layer.
+            </td></tr><tr><td><a href="610645ee-eed2-c968-8c7a-1ef627035119.htm">ShowOutlineForInfoLayer</a></td><td>
+            Change the info layer with outline highlighting or in draw only selected mode with text for all elements.
+            Be careful with this option, it has different handling for draw only selected and standard drawing.
+            </td></tr><tr><td><a href="dfd20dff-a5de-cba6-1f46-ba69623e6920.htm">ShowSizeInfoOnAllLayer</a></td><td>
+            Show info layer with size info entries. This option activate the "info on all layers" option too.
+            By deactivate it the internal value will be set to none info layer.
+            </td></tr><tr><td><a href="14df3af6-0140-830b-0773-c7d3e267dc21.htm">ShowTransparentSurfaces</a></td><td>
+            Surfaces in transparent mode are hidden by default; you can change this by using ShowTransparentSurfaces or ask for the value if it is changed.
+            </td></tr><tr><td><a href="0c6c5991-d8aa-daa8-6bb3-e54cab6d2c2c.htm">Size</a></td><td>
+            The size of the PCB-I-Window in pixel.
+            </td></tr><tr><td><a href="bd1c0298-deb4-9b75-e227-646f31752f6c.htm">StartPosition</a></td><td>
+            Determines the position of a form when it first appears.
+            </td></tr><tr><td><a href="1df9913b-9cbc-5313-9661-65612f10518a.htm">SuppressGUIUpdate</a></td><td>
+            If this bool is true, the PCB-Investigator Layer-, Drawing- and Step-Controls are not updated until this variable is set back to false
+            </td></tr><tr><td><a href="fb439cd7-03d8-1d01-8bff-ed98c27e24bf.htm">Text</a></td><td>
+            The text associated with the form.
+            </td></tr><tr><td><a href="57cd87d4-d40b-b3a3-e4d8-3fe5279eb625.htm">UIAction</a></td><td>
+            execute, set enable or set visible of ui-items.
+            </td></tr><tr><td><a href="103a097b-de8d-064f-20b7-b978242d8bb1.htm">WindowState</a></td><td>
+            Determines the initial visual state of the form.
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="0f13dc9e-e72e-0b8f-ea65-e7e75fce51e4.htm">InterfacePCBIWindow Interface</a></div><div><a href="554a4761-1813-61f8-6d34-a3246e2779ca.htm">PCBI.Automation.Interfaces Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Properties</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column">more details online<p><a href="http://www.pcb-investigator.com" target="_blank" rel="noopener noreferrer">http://www.pcb-investigator.com</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:support%40easylogix.de?Subject=PCB-Investigator%20Interface%20Documentation">support@easylogix.de</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        </script> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script></body></html>

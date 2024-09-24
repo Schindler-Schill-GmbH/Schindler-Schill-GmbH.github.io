@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>PCB_Investigator.PCBIControls.ListViewFilter Namespace</title><meta name="Title" content="PCB_Investigator.PCBIControls.ListViewFilter" /><meta name="Help.Id" content="N:PCB_Investigator.PCBIControls.ListViewFilter" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="PCB_Investigator.PCBIControls.ListViewFilter" /><meta name="guid" content="917f159d-0736-a719-cdf2-ac4c505f977d" /><meta name="tocFile" content="../toc/IDA.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">PCB-Investigator Interface Documentation</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>PCB_<wbr />Investigator.<wbr />PCBIControls.<wbr />List<wbr />View<wbr />Filter Namespace</h1><div class="summary"> </div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Classes</h2><div id="IDCCASection"><table id="classList" class="table is-hoverable"><tr><td><a href="f85d2446-2f51-a624-acf9-606cfd9c9461.htm">ListViewFilter</a></td><td>
+            List View with special filter and sorting methods. It contains extra header and context menu auto generation.
+            </td></tr><tr><td><a href="647c5da8-6ffb-c96d-c85f-bb0b2834cb7e.htm">ListViewFilterHeader</a></td><td>
+            This class encapsulates the standard HeaderControl that is not
+            currently implemented in the .NET Framework.  This is specific
+            for use with a ListViewFilter control in this assembly.  The
+            primary reason for this is to get access to the Win32 HDM_
+            messages to get/set values that are not published by the
+            System.Windows.Forms.ColumnHeader class in .NET.
+            NOTE: This control works very well in XP since it uses the
+            HDF_SORTUP/HDF_SORTDN flags to display the up/down icon. But
+            you must have a manifest that states using CommCtrl version
+            6.0 or greater, since that is where it is implemented...
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Structures</h2><div id="IDDCASection"><table id="structureList" class="table is-hoverable"><tr><td><a href="e0d2baef-886d-72b3-3a71-cc4a55327b38.htm">ListViewFilter<span id="LSTCCCEBF0_0" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>LVFFilter</a></td><td>
+            LVFFilter to create your own filter elements.
+            </td></tr><tr><td><a href="ae0f03b8-d3b8-e3aa-0ca9-e802fdf901ce.htm">NMCUSTOMDRAW</a></td><td>
+            Custom draw notify message
+            </td></tr><tr><td><a href="abe7e909-1b0c-a2c3-e9e9-aeb1d2cfc978.htm">NMHDR</a></td><td>
+            Base notify message header
+            </td></tr><tr><td><a href="cddf3ad3-bfcc-e82f-7440-e50b44799286.htm">NMHEADER</a></td><td>
+            Standard notify message header
+            </td></tr><tr><td><a href="dabe9d6f-3837-c1fa-1eeb-328fae6649d4.htm">NMLVCUSTOMDRAW</a></td><td>
+            ListView specialized custom draw message 
+            </td></tr><tr><td><a href="78c50806-e7dd-0324-e6a8-c89fdb4c4cd6.htm">RECT</a></td><td> </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Enumerations</h2><div id="IDACASection"><table id="enumerationList" class="table is-hoverable"><tr><td><a href="1d8edc74-04de-544c-cfd6-516b9628eec8.htm">LVFDataType</a></td><td>
+            Data type of column content
+            </td></tr><tr><td><a href="9ca8f898-2010-2a44-b4a5-ab5decfc021a.htm">LVFFilterType</a></td><td>
+            Type of comparison requested by the filter
+            </td></tr><tr><td><a href="04156331-18d6-f082-f834-f7b750b864b2.htm">W32_CDRF</a></td><td>
+            Custom draw return values
+            </td></tr></table></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Classes</a></li><li><a class="quickLink">Structures</a></li><li><a class="quickLink">Enumerations</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column">more details online<p><a href="http://www.pcb-investigator.com" target="_blank" rel="noopener noreferrer">http://www.pcb-investigator.com</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:support%40easylogix.de?Subject=PCB-Investigator%20Interface%20Documentation">support@easylogix.de</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        </script> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script></body></html>

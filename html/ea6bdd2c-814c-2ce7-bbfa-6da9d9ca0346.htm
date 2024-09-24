@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>InterfaceSurfaceSpecificsD Methods</title><meta name="Title" content="Methods" /><meta name="Help.Id" content="Methods.T:PCBI.Automation.Interfaces.InterfaceSurfaceSpecificsD" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="PCBI.Automation.Interfaces" /><meta name="guid" content="ea6bdd2c-814c-2ce7-bbfa-6da9d9ca0346" /><meta name="tocFile" content="../toc/ID30PB0A.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">PCB-Investigator Interface Documentation</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>Interface<wbr />Surface<wbr />Specifics<wbr />D Methods</h1><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Methods</h2><div id="IDADASection"><table id="MethodList" class="table is-hoverable"><tr><td><a href="251f9d71-eb49-1247-0ee8-9a766fa04e3d.htm">AddArc</a></td><td>
+            Add an new outline arc segment to the subpolygon.
+            </td></tr><tr><td><a href="23cef9e9-9579-3003-028a-66c1881cf3fd.htm">AddLine</a></td><td>
+            Add an new outline line segment to the subpolygon.
+            </td></tr><tr><td><a href="0ef8286b-26e0-bac8-9b53-780cc8d0e1de.htm">AddSurface(InterfaceSurfaceSpecificsD)</a></td><td>
+            Combine the current surface with the SurfaceToAdd.
+            </td></tr><tr><td><a href="0b36d7cc-e929-9c93-cb76-3afe74ad8aaa.htm">AddSurface(ISurfaceSpecificsD)</a></td><td>
+            Combine the current surface with the SurfaceToAdd.
+            </td></tr><tr><td><a href="551a1e6c-d659-54db-cc2a-c41826e1eb9e.htm">CleanUp</a></td><td>
+            Remove small line and arc elements
+            </td></tr><tr><td><a href="a899b93c-f37b-0ee7-6ced-73c5c059ec8d.htm">ClearSurface</a></td><td>
+            Clear all elements from the surface and all subpolygons.
+            </td></tr><tr><td><a href="be8c9d89-a21a-1c46-eb3a-140294b38a3a.htm">Clone</a></td><td>
+            Clone this object with all members and properties.
+            <br />(Inherited from <a href="28084dc2-3034-1fba-2811-7915263c4a8d.htm">InterfaceObjectSpecificsD</a>)</td></tr><tr><td><a href="cd930b54-5920-b8bc-2bc4-15fb9955620b.htm">EndPolygon</a></td><td>
+            Closes the sub polygon, be careful by using this action. If the polygon has gabs, it try to close it.
+            It works on the main surface if you change something it has direct effects on the main surface.
+            </td></tr><tr><td><a href="6a110fb1-c079-707b-cec8-5426becfa65d.htm">GetBounds</a></td><td>
+            Returns the surface bounds or empty rectangle if no subpolygons in the surface.
+            </td></tr><tr><td><a href="b66d1a85-0126-29c2-07e5-5cc33a306cf2.htm">GetGraphicsPath</a></td><td>
+            Creates the Graphics Path of the surface.
+            </td></tr><tr><td><a href="59677aca-0cc3-3ac1-90d9-d7680d09a31a.htm">GetIPolyClass</a></td><td>
+            IPolyClass of the defined outline or null if the elements is empty.
+            </td></tr><tr><td><a href="f82d7bb1-189d-9482-fcfc-30e36f0c66a8.htm">GetOutline</a></td><td>
+            Creates a List of IODBObjects for the outline of the surface.
+            It containes all objects in the coord list with holes and outline elements!
+            </td></tr><tr><td><a href="2a64c3f0-6bba-9f8e-2b0f-6f7fe3532796.htm">GetOutlineLists</a></td><td>
+            Creates a list of outline elements, if there are more than one object (e.g. holes) they will be seperated in different lists.
+            </td></tr><tr><td><a href="2274e5e1-d21d-ad2c-e0c6-d39b1d553096.htm">GetPolygonOutlineD</a></td><td>
+            Create a List of IPolygonSpecificsD, who represent all isle and holes of the surface.
+            </td></tr><tr><td><a href="c39c66e7-b8c7-29f1-868b-00434a984aa4.htm">IsPointInsideSurface</a></td><td>
+            Returns true if the point is inside of the surface (1 Isle and 0 or more Holes)
+            </td></tr><tr><td><a href="564cc256-cadc-fccf-65e6-54bc1509cb02.htm">MirrorX</a></td><td>
+            Mirror the surface including all subelements in X
+            </td></tr><tr><td><a href="152c3d76-1035-b322-795f-c91418a04341.htm">MirrorY</a></td><td>
+            Mirror the surface including all subelements in Y
+            </td></tr><tr><td><a href="4c913695-6aa9-53c5-fe9e-e80ff0f6b12f.htm">Rotate</a></td><td>
+            Rotate the surface including all subelements
+            </td></tr><tr><td><a href="23e3de0b-da74-3dd0-a065-7022ab4b0393.htm">Scale</a></td><td>
+            Scale the surface including all subelements
+            </td></tr><tr><td><a href="051a9f1f-90ae-f0cd-9be8-fc60c1ea2ae2.htm">SetOffset</a></td><td>
+            Offset for all subelements of this surface specifics.
+            </td></tr><tr><td><a href="c42c5b7d-bffa-70df-d8bb-b717bc985297.htm">SplitInIsleAndHoles(InterfacePCBIWindow, Boolean, Boolean)</a></td><td>
+            Check all subpolygons for holes and isles, make a list of new surfaces for each isle with own holes.
+            </td></tr><tr><td><a href="7039bcb4-71bd-dc90-5c79-7de38f24f94b.htm">SplitInIsleAndHoles(IPCBIWindow, Boolean, Boolean)</a></td><td>
+            Check all subpolygons for holes and isles, make a list of new surfaces for each isle with own holes.
+            </td></tr><tr><td><a href="aedc8feb-e2bf-39d6-53e6-8e2f31b1bd87.htm">StartPolygon</a></td><td>
+            For each part of the surface there are a polygon, the first polygon can't be a hole.
+            </td></tr><tr><td><a href="1f5c616c-cc54-3b48-b5bd-914034b4aa0c.htm">Transform</a></td><td>
+            Move and rotate the surface.
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="65f5a7ff-2c92-09fe-ab9f-d43e7f5ff0d9.htm">InterfaceSurfaceSpecificsD Interface</a></div><div><a href="554a4761-1813-61f8-6d34-a3246e2779ca.htm">PCBI.Automation.Interfaces Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Methods</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column">more details online<p><a href="http://www.pcb-investigator.com" target="_blank" rel="noopener noreferrer">http://www.pcb-investigator.com</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:support%40easylogix.de?Subject=PCB-Investigator%20Interface%20Documentation">support@easylogix.de</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        </script> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script></body></html>

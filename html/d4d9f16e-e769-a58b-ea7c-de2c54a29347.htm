@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>IComponentParameters Fields</title><meta name="Title" content="Fields" /><meta name="Help.Id" content="Fields.T:PCBI.Automation.DrawingParameters.IComponentParameters" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="PCBI.Automation.DrawingParameters" /><meta name="guid" content="d4d9f16e-e769-a58b-ea7c-de2c54a29347" /><meta name="tocFile" content="../toc/IDC0OB0A.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">PCB-Investigator Interface Documentation</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>IComponent<wbr />Parameters Fields</h1><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Fields</h2><div id="IDADASection"><table id="FieldList" class="table is-hoverable"><tr><td><a href="ced134dc-25e1-5110-7c99-84f0489793ce.htm">AllowColorPins</a></td><td>
+            Allow different colors per Pin (can be set via the API)
+            </td></tr><tr><td><a href="8531a6e8-3813-ad8a-3df7-3cf5a4a3e2a0.htm">ComponentAreaParameters</a></td><td>
+            One IComponentAreaParameters setting per AreaType
+            </td></tr><tr><td><a href="507f91aa-f9d8-4831-e564-d3d7efcb6d18.htm">ComponentColorBot</a></td><td>
+            Color for components on BOT layer
+            </td></tr><tr><td><a href="667df313-bef1-cce6-ac3f-ff27f892e441.htm">ComponentColorTop</a></td><td>
+            Color for components on TOP layer
+            </td></tr><tr><td><a href="ff315440-d364-04fe-700d-3c759fdbaa02.htm">ComponentLabel</a></td><td>
+            Label Setting for Components
+            </td></tr><tr><td><a href="a2ac8eb9-810a-5f0a-db36-0f355d7fa9a3.htm">ComponentLabelColor</a></td><td>
+            Color of the Component Label
+            </td></tr><tr><td><a href="2ef1d905-2453-cb54-0698-f8f3ecc3a5e5.htm">ComponentProperty</a></td><td>
+            This field contains the property to show in component display type property. It is connected to the display label and has only effect if the display label will be set to component property.
+            </td></tr><tr><td><a href="61db81ed-436f-23d0-c9f0-7b04d9147809.htm">DrawRealBodyOutlineInsteadOfPackageOutline</a></td><td>
+            Draws the MPN Package Body instead of the normal Package Outline if existing
+            </td></tr><tr><td><a href="7bcb5d97-8211-a3ff-ace7-bc92430439c1.htm">DynamicTextPosition</a></td><td>
+            If true, the component/pin labels are centered to the visible area part of the component/pin bounds. If false, the text is centered to the component/pin bounds and could be outside the screen.
+            </td></tr><tr><td><a href="f96034e8-0b8b-493f-2bf9-f09df78b72b4.htm">FontName</a></td><td>
+            Font Family for all Labels =&gt; Empty = GenericFontFamilies.SansSerif
+            </td></tr><tr><td><a href="13cf1297-46bd-b173-c2f9-b3f9c952fd4c.htm">HighlightFirstPin</a></td><td>
+            Highlight the first Pin by filling the pin
+            </td></tr><tr><td><a href="f36c752f-bc90-5ee5-9aa8-7a6af9f5d252.htm">HighlightPolarityPin</a></td><td>
+            Highlight the polarity Pin by filling the pin (with PolarityPinColor)
+            </td></tr><tr><td><a href="3959c769-5673-0927-d748-b251e344462c.htm">IgnoreObjectColor</a></td><td>
+            If true it ignores the specific color of the component.
+            </td></tr><tr><td><a href="c14d6945-cd43-f4e1-e194-f0d92fb323a8.htm">InsertPointUnitFactor</a></td><td>
+            Multiplicator for the Insert-Point Location (Component Property COMPONENT_INSERT_CENTER)
+            </td></tr><tr><td><a href="042f6d7e-2a7e-4017-0719-c270efa33cb8.htm">MirrorLabels</a></td><td>
+            Mirror all label texts of a component
+            </td></tr><tr><td><a href="fcc9cffd-3977-c76a-7a98-295360a208fa.htm">MPNPackageBodyColor</a></td><td>
+            Color for MPN Package Bodys
+            </td></tr><tr><td><a href="9600221a-b81b-a1dd-bc5d-28d111512e60.htm">MPNPackagePinColor</a></td><td>
+            Color for MPN Package Pins
+            </td></tr><tr><td><a href="296acdfc-17b9-8202-167b-e9cb4fb82a67.htm">PinLabelType</a></td><td>
+            Type of the Pin Label
+            </td></tr><tr><td><a href="eb7d6551-6fbe-7a40-9b35-2054c4341309.htm">PolarityPinColor</a></td><td>
+            Color of the Polarity Pin
+            </td></tr><tr><td><a href="fc09367d-4b65-c601-55d3-1c265e3ac66a.htm">ShowInsertPoint</a></td><td>
+            Show the insert point for each component
+            </td></tr><tr><td><a href="081668d3-02ce-b77e-f828-fe2da539281f.htm">ShowMPNPackageBody</a></td><td>
+            If true, the MPN Package Body is drawn if exists (with MPNPackageBodyColor)
+            </td></tr><tr><td><a href="d71863a9-5dda-7a29-e84c-ce850f25dbac.htm">ShowMPNPackagePinLabel</a></td><td>
+            If true, the MPN Package Pin Labels are drawn if exists (with MPNPackagePinColor)
+            </td></tr><tr><td><a href="1d86a769-52b8-89af-caac-8956b713a425.htm">ShowMPNPackagePins</a></td><td>
+            If true, the MPN Package Pins are drawn if exists (with MPNPackagePinColor)
+            </td></tr><tr><td><a href="711c0c89-182a-2b87-0be0-3d404c8bfbe7.htm">ShowPinLabel</a></td><td>
+            Show a label in each Pin
+            </td></tr><tr><td><a href="28297750-a110-c2f8-e363-4a3e690368a5.htm">ShowPins</a></td><td>
+            Show Component Pins or hide them totally
+            </td></tr><tr><td><a href="f4f71c2e-ea7c-23aa-7ddd-d9730d931203.htm">UseAntiAliasTextRendering</a></td><td>
+            If true, the component/pin labels are rendered with Antialias
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="d79fdaf5-081f-6e94-d4ee-34092a311a16.htm">IComponentParameters Class</a></div><div><a href="fc60808f-5161-2819-d772-5194469dc9ce.htm">PCBI.Automation.DrawingParameters Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Fields</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column">more details online<p><a href="http://www.pcb-investigator.com" target="_blank" rel="noopener noreferrer">http://www.pcb-investigator.com</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:support%40easylogix.de?Subject=PCB-Investigator%20Interface%20Documentation">support@easylogix.de</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        </script> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script></body></html>

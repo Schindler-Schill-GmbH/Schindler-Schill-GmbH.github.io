@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>InterfaceLayer Methods</title><meta name="Title" content="Methods" /><meta name="Help.Id" content="Methods.T:PCBI.Automation.Interfaces.InterfaceLayer" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="PCBI.Automation.Interfaces" /><meta name="guid" content="26515b6c-fe4b-faae-d265-2acfff8d378d" /><meta name="tocFile" content="../toc/IDI0PB0A.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">PCB-Investigator Interface Documentation</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>Interface<wbr />Layer Methods</h1><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Methods</h2><div id="IDADASection"><table id="MethodList" class="table is-hoverable"><tr><td><a href="56b726f7-8338-c384-5c23-10b6258bfb05.htm">CalculateLayerBounds</a></td><td> </td></tr><tr><td><a href="2d07a1fd-5296-e615-1f4b-fb81108148b2.htm">DisableLayer</a></td><td>
+            Deactivate the layer and remove it from drawing list.
+            </td></tr><tr><td><a href="82d4d0d8-d9cc-869f-af30-76078f206784.htm">EnableLayer</a></td><td>
+            Enable layer for drawing. The layer get a layer color for draw it's elements and will be marked in layerlist.
+            </td></tr><tr><td><a href="25793f0d-6e95-3f87-1587-ebca12535238.htm">GetAllLayerObjects</a></td><td>
+            All objects of this layer.
+            </td></tr><tr><td><a href="07e6aecd-1725-8bfc-2f3e-d7062a477a84.htm">GetAllObjectInRectangle</a></td><td>
+            Get all objects in rectangle.
+            </td></tr><tr><td><a href="27a0b471-1881-bf01-0d24-405fef4d85a7.htm">GetAllObjectsOnPosition</a></td><td>
+            Check for objects on the given position.
+            </td></tr><tr><td><a href="21c33a0b-2522-b118-c03d-76e61bbbc594.htm">GetBoundsD</a></td><td>
+            Layer bounds in mils.
+            </td></tr><tr><td><a href="ffb89e33-5b6e-459a-531b-60167c7c4f28.htm">GetElementCount</a></td><td>
+            Count of all elements.
+            </td></tr><tr><td><a href="65d8471f-186f-b4af-fa1a-e975820feef8.htm">GetLayerName</a></td><td>
+            Name of this layer.
+            </td></tr><tr><td><a href="d6cb7732-208e-3097-d044-a266d53b8ec8.htm">GetNotesOnLayer</a></td><td>
+            Notes of this layer.
+            </td></tr><tr><td><a href="efa5ba9d-d873-67f6-dfc9-0a1614f308a5.htm">GetOverlayColor</a></td><td>
+            Color for location.
+            </td></tr><tr><td><a href="cef55fbb-394f-20d9-256e-0ba824d89005.htm">GetOverlayPixelValue</a></td><td>
+            Ask internal list to get the relevant value on the X/Y location.
+            </td></tr><tr><td><a href="84aeec1d-8553-5f5d-2e14-4def60661a3f.htm">HasOverlay</a></td><td>
+            Is overlay used for this layer?
+            </td></tr><tr><td><a href="af482521-01bf-1e70-bf40-0bf31bbf63a6.htm">MirrorX</a></td><td>
+            Mirror in X direction.
+            </td></tr><tr><td><a href="fd94e6a3-4966-890e-4b24-59d6809888c8.htm">MirrorY</a></td><td>
+            Mirror in Y direction.
+            </td></tr><tr><td><a href="2ddc76d2-5d21-aa5d-5b7a-3edd31521241.htm">MoveLayer(PointD)</a></td><td>
+            Move all elements on this layer.
+            </td></tr><tr><td><a href="bc86c2f7-444d-3468-c95e-0f92f40dc627.htm">MoveLayer(PointF)</a></td><td>
+            Move all elements on this layer.
+            </td></tr><tr><td><a href="4949abbd-d8e5-132c-7e57-5e446f1e5c24.htm">RotateLayer</a></td><td>
+            Rotate all elements on this layer.
+            </td></tr><tr><td><a href="989b2f4e-b565-ecbb-65ad-ee39a8621f90.htm">SaveLayerAsCatia</a></td><td>
+            saves the layer as catia script
+            </td></tr><tr><td><a href="a04f57fb-953e-5ad2-10af-0bb893b8e882.htm">SaveLayerAsDXF</a></td><td>
+            Export a dxf file with all elements of this layer.
+            </td></tr><tr><td><a href="a2d342d0-3f25-87a6-67b9-09af52348c04.htm">SetOverlayAlpha</a></td><td>
+            Transparence of the layer image.
+            </td></tr><tr><td><a href="f9f3d9d7-aa06-4f2c-836a-aad656e94983.htm">SetOverlayImage</a></td><td>
+            Overlay image like in physics to show more information on the layer.
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="9f18159a-e479-49fb-c02c-6fecfc8a2a4e.htm">InterfaceLayer Interface</a></div><div><a href="554a4761-1813-61f8-6d34-a3246e2779ca.htm">PCBI.Automation.Interfaces Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Methods</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column">more details online<p><a href="http://www.pcb-investigator.com" target="_blank" rel="noopener noreferrer">http://www.pcb-investigator.com</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:support%40easylogix.de?Subject=PCB-Investigator%20Interface%20Documentation">support@easylogix.de</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        </script> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script></body></html>

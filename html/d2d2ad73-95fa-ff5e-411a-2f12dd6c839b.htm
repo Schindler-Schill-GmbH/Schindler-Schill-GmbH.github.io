@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>IDrawingParameters Fields</title><meta name="Title" content="Fields" /><meta name="Help.Id" content="Fields.T:PCBI.Automation.DrawingParameters.IDrawingParameters" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="PCBI.Automation.DrawingParameters" /><meta name="guid" content="d2d2ad73-95fa-ff5e-411a-2f12dd6c839b" /><meta name="tocFile" content="../toc/IDD0OB0A.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">PCB-Investigator Interface Documentation</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>IDrawing<wbr />Parameters Fields</h1><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Fields</h2><div id="IDADASection"><table id="FieldList" class="table is-hoverable"><tr><td><a href="ec65c369-7fd6-999e-32a4-ca2868eca858.htm">BoardBrushColor</a></td><td>
+            Color which is used for filling the contour of the PCB
+            </td></tr><tr><td><a href="a704ba55-a7c0-bb05-fc96-1bc5758207af.htm">ColorMixingMode</a></td><td>
+            If more than one layer is drawn, this mode determines how the different overlapping colors are mixed
+            </td></tr><tr><td><a href="86eb47a3-5528-3ab8-5926-343c5ad18a71.htm">ComponentParameters</a></td><td>
+            Set of Parameters for drawing components
+            </td></tr><tr><td><a href="baaff4e9-4507-461e-9ed2-5fdb4b36d533.htm">DrawBoardColored</a></td><td>
+            Fill the contour of the board with the BoardBrushColor
+            </td></tr><tr><td><a href="679ef8f8-d822-99e5-54e1-393e286bdbe8.htm">DrawODBZones</a></td><td>
+            Draw ODB++ Zones (if defined in the data set)
+            </td></tr><tr><td><a href="17d108c8-132c-0d20-0e3a-e0ddd8121fef.htm">DrawOrigin</a></td><td>
+            Draw the contour of the board
+            </td></tr><tr><td><a href="0b84e75a-f5be-702e-23d3-12b9c78a3309.htm">DrawProfile</a></td><td>
+            Draw the contour of the board
+            </td></tr><tr><td><a href="bba78b59-480c-b0eb-468f-a55ad8041c21.htm">FeatureParameters</a></td><td>
+            Set of Parameters for drawing normal objects (Line/Arc/Surface/Text/Pad)
+            </td></tr><tr><td><a href="97a2815e-54ed-3345-70b4-cb50d5cf5c8e.htm">FlattenStep</a></td><td>
+            Draw all instances of a Step and Repeat panel
+            </td></tr><tr><td><a href="24df6052-3939-c8d2-08ab-29654183c8e1.htm">NoColorMixtureForDrills</a></td><td>
+            If set, drills are drawn at the end without mixing the colors
+            </td></tr><tr><td><a href="dc1d58f3-279d-0f84-3960-9df138467587.htm">PanelInfoInProfile</a></td><td>
+            Draw additional panel information (if a step with Step and Repeat is active)
+            </td></tr><tr><td><a href="7415c0b2-9b2e-adfd-0928-df58fee082d9.htm">SelectionParameters</a></td><td>
+            Set of Parameters for drawing the selection
+            </td></tr><tr><td><a href="79b92100-1966-18af-ae1e-c9c24fc24c31.htm">SortedLayersToDraw</a></td><td>
+            List of Layers (with additional settings) to draw. The order is important because of the ColorMixingMode.
+            </td></tr><tr><td><a href="f9c0d38a-f43c-5016-ebcb-688fbb38fb87.htm">UseDefaultBackgroundColor</a></td><td>
+            Use the internal default color or the background color?
+            </td></tr><tr><td><a href="b6606df0-c14b-6949-fddf-e008bbae0256.htm">UseDefaultInfoColor</a></td><td>
+            Use the internal default color or the info color?
+            </td></tr><tr><td><a href="d643bfc2-11f6-7727-c74c-9ea68dcbdeea.htm">UseDefaultProfileColor</a></td><td>
+            Use the internal default color or the profile color?
+            </td></tr><tr><td><a href="455fac9d-f897-67bc-7509-557d6ad79e1e.htm">XorComponentLayer</a></td><td>
+            Use XOR Colormixing also for Components
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="f1885247-bd43-51a4-0dff-6ecc69152165.htm">IDrawingParameters Class</a></div><div><a href="fc60808f-5161-2819-d772-5194469dc9ce.htm">PCBI.Automation.DrawingParameters Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Fields</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column">more details online<p><a href="http://www.pcb-investigator.com" target="_blank" rel="noopener noreferrer">http://www.pcb-investigator.com</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:support%40easylogix.de?Subject=PCB-Investigator%20Interface%20Documentation">support@easylogix.de</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        </script> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script></body></html>

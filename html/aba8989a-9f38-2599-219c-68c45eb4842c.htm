@@ -1,0 +1,405 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>IStep Class</title><meta name="Title" content="IStep" /><meta name="Help.Id" content="T:PCBI.Automation.IStep" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="PCBI.Automation" /><meta name="guid" content="aba8989a-9f38-2599-219c-68c45eb4842c" /><meta name="Description" content="IStep contains all functions working with steps. This is one of the most important classes to work with PCB-Investigator interface, you need it for getting layers, nets and components." /><meta name="tocFile" content="../toc/ID0MB0A.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">PCB-Investigator Interface Documentation</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>IStep Class</h1><div class="summary">
+            IStep contains all functions working with steps.
+            This is one of the most important classes to work with PCB-Investigator interface, you need it for getting layers, nets and components.
+            </div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Definition</h2><div id="IDBSection"><strong>Namespace:</strong> <a href="27856e2b-abd7-b4b8-2d7c-eb73d5330f15.htm">PCBI.Automation</a><br /><strong>Assembly:</strong> PCB-Investigator (in PCB-Investigator.exe) Version: 0<div class="codeSnippet" data-codeSnippetLanguage="cs"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">IStep</span> : <span class="identifier">InterfaceStep</span></code></pre></div></div><div class="codeSnippet is-hidden" data-codeSnippetLanguage="vb"><div class="codeHeader"><span class="codeHeaderTitle">VB</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-vb"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">IStep</span>
+	<span class="keyword">Implements</span> <span class="identifier">InterfaceStep</span></code></pre></div></div><div class="codeSnippet is-hidden" data-codeSnippetLanguage="cpp"><div class="codeHeader"><span class="codeHeaderTitle">C++</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cpp"><span class="keyword">public</span> <span class="keyword">ref class</span> <span class="identifier">IStep</span> : <span class="identifier">InterfaceStep</span></code></pre></div></div><div class="codeSnippet is-hidden" data-codeSnippetLanguage="fs"><div class="codeHeader"><span class="codeHeaderTitle">F#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-fs"><span class="keyword">type</span> <span class="identifier">IStep</span> = 
+    <span class="keyword">class</span>
+        <span class="keyword">interface</span> <span class="identifier">InterfaceStep</span>
+    <span class="keyword">end</span></code></pre></div></div><dl class="inheritanceHierarchy"><dt>Inheritance</dt><dd><span class="noLink">Object</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="selflink">IStep</span></dd></dl><dl class="implementsList"><dt>Implements</dt><dd><a href="d81f438f-51aa-ec6c-1ac5-6e8837060b80.htm">InterfaceStep</a></dd></dl></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Properties</h2><div id="ID0GD0FASection"><table id="PropertyList" class="table is-hoverable"><tr><td><a href="69c21886-80a2-567f-aa3b-22870794ea56.htm">IsProductionStep</a></td><td>
+            Production steps marked with PCBI_ProductionTool in source_name to ignore them for exports and checks.
+            </td></tr><tr><td><a href="4dd756e3-87bf-9120-e3a2-300298b86b2f.htm">IsRootStep</a></td><td>
+            If the step have no children steps it is a root step.
+            </td></tr><tr><td><a href="22a8d66a-6456-05d3-05f2-30fddb69900e.htm">Name</a></td><td>
+            The name of the step.
+            </td></tr><tr><td><a href="3116fa2a-14cc-f883-cd9d-6d44fadea31c.htm">Notes</a></td><td>
+            List of iNotes attached to the Step or single Layers
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Methods</h2><div id="IDGFASection"><table id="MethodList" class="table is-hoverable"><tr><td><a href="2a7ff2f5-24f1-b241-4fb4-db8a8e996db1.htm">ActivateLayersAndOptimizeNetView</a></td><td>
+            Activate all signal net layers.
+            Then it zooms to the selected area and activateDrawOnlySelectedMode (does not selecting the net, use SelectNetElements for this).
+            </td></tr><tr><td><a href="b833aacb-c5e3-3e88-3459-f7cdaca0a463.htm">ActivateNetLayers</a></td><td>
+            Activate all signal net layers.
+            </td></tr><tr><td><a href="be16e213-749b-a4ba-2b73-52d4a9d08da9.htm">ActivateStep<span id="LSTCD7DEED_0" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            Change to current Step. Reorder the steplist internal in PCB-Investigator.
+            </td></tr><tr><td><a href="f457af3e-b768-e342-b7c7-7e34fc57a8d9.htm">ActivateStep(Boolean)</a></td><td>
+            Change to current Step. Reorder the steplist internal in PCB-Investigator. With option to update controls (if you have no visible instance of IPCBIWindow it is not necessary to update the controls).
+            </td></tr><tr><td><a href="48c42670-678b-8fe7-0aa7-d81d371f407c.htm">AddChildStep</a></td><td>
+            Add single step as child to current step.
+            </td></tr><tr><td><a href="4eea5a0b-ce66-3c3f-1156-f0d2d06e8710.htm">AddDrillFile</a></td><td>
+            Import Drill Files with Drill Table (Excellon)
+            </td></tr><tr><td><a href="3fb1c8dc-b911-0b2e-3270-2ab981c629cb.htm">AddExcellonLayer</a></td><td>
+            Reads Excellon 1/2 file, errors are reported in the ErrorLog.
+            </td></tr><tr><td><a href="3a8c2bca-cddc-9850-3e22-8eccde95b123.htm">AddGerberLayer(String, Boolean)</a></td><td>
+            Reads Gerber or Excellon data, errors are reported in the ErrorLog.
+            Here is a example how to use this method: http://www.pcb-investigator.com/en/how-create-report-gerber-files
+            </td></tr><tr><td><a href="fc80023f-91d5-3c4a-42e8-2ade37e963ec.htm">AddGerberLayer(String, Boolean, FormatTypes, Int32, Int32, Nullable<span id="LSTCD7DEED_1" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_2" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Boolean, omit_zeros_t)</a></td><td>
+            Reads Gerber or Excellon data, errors are reported in the ErrorLog.
+            </td></tr><tr><td><a href="016c0efc-4d0b-92b7-1f23-68f7dff8bd7d.htm">AddGerberLayer(String, Boolean, FormatTypes, Int32, Int32, Nullable<span id="LSTCD7DEED_3" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_4" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Boolean, omit_zeros_t, Boolean)</a></td><td>
+            Reads Gerber or Excellon data, errors are reported in the ErrorLog.
+            </td></tr><tr><td><a href="a3bd7106-9726-a280-2548-e168fd35c559.htm">AddGerberLayer(String, Boolean, FormatTypes, GerberImportParameter, Int32, Int32, Nullable<span id="LSTCD7DEED_5" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_6" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Boolean, omit_zeros_t, Boolean)</a></td><td>
+            Reads Gerber or Excellon data, errors are reported in the ErrorLog.
+            </td></tr><tr><td><a href="618ac26f-3680-dac2-dd4d-bcd5cb031672.htm">AddGerberLayer(String, Boolean, FormatTypes, Int32, Int32, Nullable<span id="LSTCD7DEED_7" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_8" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Boolean, omit_zeros_t, Boolean, Boolean)</a></td><td>
+            Reads Gerber or Excellon data, errors are reported in the ErrorLog.
+            </td></tr><tr><td><a href="75e886a5-8c3a-c3d1-9188-feeb1d10f242.htm">AddGerberLayer(String, Boolean, FormatTypes, GerberImportParameter, Int32, Int32, Nullable<span id="LSTCD7DEED_9" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_10" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Boolean, omit_zeros_t, Boolean, Boolean)</a></td><td>
+            Reads Gerber or Excellon data, errors are reported in the ErrorLog.
+            </td></tr><tr><td><a href="e463a6cc-e4db-59b7-278e-27a400f433ce.htm">AddGerberLayer(String, Boolean, FormatTypes, GerberImportParameter, Int32, Int32, Nullable<span id="LSTCD7DEED_11" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_12" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Boolean, omit_zeros_t, Boolean, Boolean, Boolean, Boolean)</a></td><td>
+            Reads Gerber or Excellon data, errors are reported in the ErrorLog.
+            </td></tr><tr><td><a href="b19e8d68-1405-ed68-f154-0977befdd52f.htm">AddNet</a></td><td>
+            Add a new Net.
+            </td></tr><tr><td><a href="779e1209-e801-5795-91ad-9beb0a40171d.htm">AddODBNote</a></td><td>
+            Add a new ODB++ Note to a layer
+            </td></tr><tr><td><a href="2db4bcf0-c716-d5a5-9abb-2ec30da11712.htm">AddPackage(InterfacePackageSpecificsD)</a></td><td>
+            Add an single package to the step, by saving the job it will be added to the ODB++ eda file.
+            </td></tr><tr><td><a href="853ff93e-4f99-d54b-cbfa-4a6d81aaf177.htm">AddPackage(IPackageSpecifics)</a></td><td>
+            Add an single package to the step, by saving the job it will be added to the ODB++ eda file.
+            </td></tr><tr><td><a href="6e4313cf-9bd6-c053-d331-1fc4d64fae7e.htm">AddPackage(IPackageSpecificsD)</a></td><td>
+            Add an single package to the step, by saving the job it will be added to the ODB++ eda file.
+            </td></tr><tr><td><a href="32cf72b0-cc75-37a3-83b4-9287e4538f3a.htm">AddStepAttribute</a></td><td>
+            Add attribute to current step (if unit depending, then mils)
+            </td></tr><tr><td><a href="b7dd4e2c-be4d-2b0a-9be7-4f608fefdce3.htm">AOIHighResolutionBMPExport(List<span id="LSTCD7DEED_13" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceODBLayer<span id="LSTCD7DEED_14" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_15" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_16" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleF, Boolean, Boolean, Int32, AOIMatrixSize, Boolean, Boolean)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a Bitmap from all layer in LayerList.
+            </td></tr><tr><td><a href="d36d88df-c307-23c2-57da-e8a198425ee8.htm">AOIHighResolutionBMPExport(List<span id="LSTCD7DEED_17" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBLayer<span id="LSTCD7DEED_18" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_19" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_20" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleF, Boolean, Boolean, Int32, AOIMatrixSize, Boolean, Boolean)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a Bitmap from all layer in LayerList.
+            </td></tr><tr><td><a href="3d914782-1875-0d85-fab4-1bb6c6562bed.htm">AOIHighResolutionBMPExport(List<span id="LSTCD7DEED_21" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceODBLayer<span id="LSTCD7DEED_22" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_23" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_24" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleF, Boolean, Boolean, Int32, AOIMatrixSize, Boolean, Boolean, Int32<span id="LSTCD7DEED_25" data-languageSpecificText="cpp=%"></span>, Boolean, IPCBIWindow<span id="LSTCD7DEED_26" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a Bitmap from all layer in LayerList.
+            </td></tr><tr><td><a href="5483cf10-7d33-7000-b006-2b4022e1f4ca.htm">AOIHighResolutionBMPExport(List<span id="LSTCD7DEED_27" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBLayer<span id="LSTCD7DEED_28" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_29" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_30" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleF, Boolean, Boolean, Int32, AOIMatrixSize, Boolean, Boolean, Int32<span id="LSTCD7DEED_31" data-languageSpecificText="cpp=%"></span>, Boolean, IPCBIWindow<span id="LSTCD7DEED_32" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a Bitmap from all layer in LayerList.
+            </td></tr><tr><td><a href="85357e62-7da3-4b92-f13c-056bf5e4a18f.htm">AOIHighResolutionBMPExport(List<span id="LSTCD7DEED_33" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceODBLayer<span id="LSTCD7DEED_34" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_35" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_36" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleF, Boolean, Boolean, Int32, AOIMatrixSize, Boolean, Boolean, Int32<span id="LSTCD7DEED_37" data-languageSpecificText="cpp=%"></span>, Boolean, Boolean, IPCBIWindow<span id="LSTCD7DEED_38" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged, Int32, Int32)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a Bitmap from all layer in LayerList.
+            </td></tr><tr><td><a href="54b6974d-096b-0b0a-9c24-dfe4dd8db726.htm">AOIHighResolutionBMPExport(List<span id="LSTCD7DEED_39" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBLayer<span id="LSTCD7DEED_40" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_41" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_42" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleF, Boolean, Boolean, Int32, AOIMatrixSize, Boolean, Boolean, Int32<span id="LSTCD7DEED_43" data-languageSpecificText="cpp=%"></span>, Boolean, Boolean, IPCBIWindow<span id="LSTCD7DEED_44" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged, Int32, Int32)</a></td><td> </td></tr><tr><td><a href="bf0a1644-cf49-a322-8adf-90cb55c251d2.htm">AOIHighResolutionMemoryExport(MemoryStream<span id="LSTCD7DEED_45" data-languageSpecificText="cpp=%"></span>, ICMPLayer, RectangleD, Int32, Boolean, Color, Int32<span id="LSTCD7DEED_46" data-languageSpecificText="cpp=%"></span>, Int32<span id="LSTCD7DEED_47" data-languageSpecificText="cpp=%"></span>, IPCBIWindow<span id="LSTCD7DEED_48" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Fills the MemoryStream with rgb image data (3 bytes/pixel). Layer-Color is used.
+            Components are drawn with a filled body, without pins and without any label
+            </td></tr><tr><td><a href="5f8b21fe-33fb-25f8-a08f-8be70d6aedfc.htm">AOIHighResolutionMemoryExport(MemoryStream<span id="LSTCD7DEED_49" data-languageSpecificText="cpp=%"></span>, InterfaceCMPLayer, RectangleD, Int32, Boolean, Color, Int32<span id="LSTCD7DEED_50" data-languageSpecificText="cpp=%"></span>, Int32<span id="LSTCD7DEED_51" data-languageSpecificText="cpp=%"></span>, IPCBIWindow<span id="LSTCD7DEED_52" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Fills the MemoryStream with rgb image data (3 bytes/pixel). Layer-Color is used.
+            Components are drawn with a filled body, without pins and without any label
+            </td></tr><tr><td><a href="092bd2b4-fa9a-de0e-153c-256a0e9a381a.htm">AOIHighResolutionMemoryExport(MemoryStream<span id="LSTCD7DEED_53" data-languageSpecificText="cpp=%"></span>, InterfaceODBLayer, RectangleD, Int32, Int32, Boolean, AOIMatrixSize, Boolean, Boolean, Color, Boolean, Int32<span id="LSTCD7DEED_54" data-languageSpecificText="cpp=%"></span>, Int32<span id="LSTCD7DEED_55" data-languageSpecificText="cpp=%"></span>, IPCBIWindow<span id="LSTCD7DEED_56" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Fills the MemoryStream with rgb image data (3 bytes/pixel). Layer-Color is used.
+            </td></tr><tr><td><a href="40a0133c-8770-b8fb-389e-27c8fa59235a.htm">AOIHighResolutionMemoryExport(MemoryStream<span id="LSTCD7DEED_57" data-languageSpecificText="cpp=%"></span>, IODBLayer, RectangleD, Int32, Int32, Boolean, AOIMatrixSize, Boolean, Boolean, Color, Boolean, Int32<span id="LSTCD7DEED_58" data-languageSpecificText="cpp=%"></span>, Int32<span id="LSTCD7DEED_59" data-languageSpecificText="cpp=%"></span>, IPCBIWindow<span id="LSTCD7DEED_60" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Fills the MemoryStream with rgb image data (3 bytes/pixel). Layer-Color is used.
+            </td></tr><tr><td><a href="bd1d4951-c667-57af-ce6d-e5036fca3146.htm">AOIHighResolutionTIFExport(List<span id="LSTCD7DEED_61" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceODBLayer<span id="LSTCD7DEED_62" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_63" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_64" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleD, Int32, AOIMatrixSize, Int32, Boolean, Int32, Int32, IPCBIWindow<span id="LSTCD7DEED_65" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a TIF from all layer in LayerList.
+            </td></tr><tr><td><a href="2d8b7ae7-c68e-8c19-26b0-1ff58bb7397b.htm">AOIHighResolutionTIFExport(List<span id="LSTCD7DEED_66" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBLayer<span id="LSTCD7DEED_67" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_68" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_69" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleD, Int32, AOIMatrixSize, Int32, Boolean, Int32, Int32, IPCBIWindow<span id="LSTCD7DEED_70" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a TIF from all layer in LayerList.
+            </td></tr><tr><td><a href="6cfe0bbf-8d19-bb12-6f3f-7fa26322d1c1.htm">AOIHighResolutionTIFExport(List<span id="LSTCD7DEED_71" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceODBLayer<span id="LSTCD7DEED_72" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_73" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_74" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleD, Int32, AOIMatrixSize, Int32, Boolean, Boolean, Int32, Int32, IPCBIWindow<span id="LSTCD7DEED_75" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a TIF from all layer in LayerList.
+            </td></tr><tr><td><a href="4c03d1f3-52c6-ac7d-1e09-d9233b950492.htm">AOIHighResolutionTIFExport(List<span id="LSTCD7DEED_76" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBLayer<span id="LSTCD7DEED_77" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, List<span id="LSTCD7DEED_78" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Boolean<span id="LSTCD7DEED_79" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, String, RectangleD, Int32, AOIMatrixSize, Int32, Boolean, Boolean, Int32, Int32, IPCBIWindow<span id="LSTCD7DEED_80" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ProgressChanged)</a></td><td>
+            A seperate licence is necessary to use AOI!
+            Creates a TIF from all layer in LayerList.
+            </td></tr><tr><td><a href="35d1241b-85a2-d784-a90e-c65b0f4c9693.htm">CalculateBoardArea</a></td><td>
+            Calculate the area of the board in mils.
+            </td></tr><tr><td><a href="7ea0b552-e68d-4543-9d56-b3035cb511b2.htm">CleanPackageList</a></td><td>
+            Remote all unused packages from current step (eda file).
+            </td></tr><tr><td><a href="2d801a2c-75ec-e65c-c340-0533ba1e9573.htm">ClearSelection<span id="LSTCD7DEED_81" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            Deselects all elements on the step. This is for all layers in the current step, other steps are not touched.
+            </td></tr><tr><td><a href="88d86492-d085-2c80-7045-1bf61776555a.htm">ClearSelection(Boolean)</a></td><td>
+            Deselects all elements on the step.
+            </td></tr><tr><td><a href="63237d90-312e-3d3a-d3c8-90a53ca1c35d.htm">DeactivateAllOverlays</a></td><td>
+            Deactivates all active layer overlays
+            </td></tr><tr><td><a href="bd5ef473-b5e3-abe0-1ec0-b43ee8999034.htm">DeSelectContactNetCMPs</a></td><td>
+            Deselect the choosen CMPs in contact with the net.
+            </td></tr><tr><td><a href="63af4bf3-f7d9-0587-4041-d935b0560a73.htm">DeSelectNetElements</a></td><td>
+            Deselect the choosen net.
+            </td></tr><tr><td><a href="0ea6dcb8-1cba-116a-fcb0-d6c67f2be6c6.htm">DrawColoredImage</a></td><td>
+            Create image from clipping rectangle, the background is white for this image.
+            </td></tr><tr><td><a href="d4c97cd5-9f74-b225-2dcf-2ac6968f7b10.htm">ExportGerberLayersInOneFile(List<span id="LSTCD7DEED_82" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBLayer<span id="LSTCD7DEED_83" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, IFileData, Int32, Int32, Boolean, Boolean, Boolean, SpecialSymbolGerberExportEnum, PanelGerberExportEnum, Boolean, Boolean)</a></td><td>
+            Save all layerobjects as gerberfile to the fullPath location.
+            </td></tr><tr><td><a href="6faf7794-80ea-4328-8691-bd064b18e76b.htm">ExportGerberLayersInOneFile(List<span id="LSTCD7DEED_84" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBLayer<span id="LSTCD7DEED_85" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, IFileData, Int32, Int32, Boolean, Boolean, Boolean, SpecialSymbolGerberExportEnum, PanelGerberExportEnum, Boolean, Boolean, Boolean)</a></td><td>
+            Save all layerobjects as gerberfile to the fullPath location.
+            </td></tr><tr><td><a href="f3ed8f18-5a8d-6bad-8347-614070cbf08c.htm">ExportIPC356</a></td><td>
+            Exports the step as IPC356 with the given options
+            </td></tr><tr><td><a href="38e1a1f8-6a2a-1e42-1de8-cd98d2561305.htm">FlattenStep(String)</a></td><td>
+            The step will be flatted, all repeated objects from other steps are placed on the new step.
+            </td></tr><tr><td><a href="67ed6aca-6602-c013-3551-2192d5c1c690.htm">FlattenStep(String, Boolean)</a></td><td>
+            The step will be flatted, all repeated objects from other steps are placed on the new step.
+            </td></tr><tr><td><a href="30ac3496-994c-84ab-2706-a4687d697de6.htm">FlattenStep(String, Boolean, Boolean, Char)</a></td><td>
+            The step will be flatted, all repeated objects from other steps are placed on the new step.
+            </td></tr><tr><td><a href="ba25ca1a-88a2-3ea5-ba7b-9ad808572182.htm">FlattenStep(String, Boolean, Boolean, Int32, Char)</a></td><td>
+            The step will be flatted, all repeated objects from other steps are placed on the new step.
+            </td></tr><tr><td><a href="08370eac-ee48-f026-f866-a31dea1a96c9.htm">FlattenStep(String, Boolean, Boolean, Int32, Char, Int32)</a></td><td>
+            The step will be flatted, all repeated objects from other steps are placed on the new step.
+            </td></tr><tr><td><a href="4f08abb1-d334-861e-5248-38c46881baf0.htm">FlattenStepOnlySpecificLayers(String, Boolean, List<span id="LSTCD7DEED_86" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>String<span id="LSTCD7DEED_87" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</a></td><td>
+            The step will be flatted, all repeated objects from other steps are placed on the new step. But only for the layers in LayerNamesToFlatten list (use names toLower).
+            </td></tr><tr><td><a href="ea4a95c3-c790-059d-9773-2f556cb73552.htm">FlattenStepOnlySpecificLayers(String, Boolean, List<span id="LSTCD7DEED_88" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>String<span id="LSTCD7DEED_89" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Int32)</a></td><td>
+            The step will be flatted, all repeated objects from other steps are placed on the new step. But only for the layers in LayerNamesToFlatten list (use names toLower).
+            </td></tr><tr><td><a href="6a1be700-e76b-9d96-b115-38251ac43c02.htm">GetActiveLayerList</a></td><td>
+            Get all active layers, contains not visible layers. It's possible to check the layers in layerlist without drawing them (e.g. for using to calculate distances without showing all elements).
+            </td></tr><tr><td><a href="4d774f25-2d1a-8fb4-da40-18ef617ac453.htm">GetAllCMPObjects<span id="LSTCD7DEED_90" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            Get All used CMPs on top and bot CMP layer.
+            </td></tr><tr><td><a href="0dc6a989-85a1-e836-3403-de14e825c355.htm">GetAllCMPObjects(Boolean)</a></td><td>
+            Get All used CMPs on top and bot CMP layer.
+            </td></tr><tr><td><a href="e0ede61a-4d47-5695-d268-789a9e93e659.htm">GetAllCMPObjectsByReferenceDictionary</a></td><td>
+            Create a dictionary for all components with key = reference.
+            </td></tr><tr><td><a href="600c7bbc-df41-8daf-84ff-96edcc48263b.htm">GetAllCMPsWithNetConnectionTo</a></td><td>
+            Calculate a list of all components on the net.
+            </td></tr><tr><td><a href="0ff78b02-aef6-62dc-ed7f-6590ea97daaf.htm">GetAllLayerNames</a></td><td>
+            Get all layer names.
+            </td></tr><tr><td><a href="d71f8e6f-a7c6-fc19-3ac4-90be7f2a7668.htm">GetAllNetNames</a></td><td>
+            Returns a list of all net names. If names double defined they added more than one time, depending on there net number.
+            </td></tr><tr><td><a href="a0f3030d-1e00-1229-b573-16a481e1e775.htm">GetAllNetNrs</a></td><td>
+            Create a list with all net numbers. They sorted in order as in ODB++ defined.
+            </td></tr><tr><td><a href="81ff3d4f-7d84-cc4e-c6c7-cce199387a9c.htm">GetAllPackages</a></td><td>
+            Creates a list of all packages in the ODB-Step. Including all packages from the eda file including all component packages who not used.
+            </td></tr><tr><td><a href="a25c1348-35fc-9f77-96a6-344d03a64b7a.htm">GetAllPackagesD<span id="LSTCD7DEED_91" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            Creates a list of all packages in the ODB-Step. Including all packages from the eda file including all component packages who not used.
+            </td></tr><tr><td><a href="48a114cb-0f25-cbdb-67f8-c26fee8b653f.htm">GetAllPackagesD(Boolean)</a></td><td>
+            Creates a list of all packages in the ODB-Step. Including all packages from the eda file including all component packages who not used.
+            </td></tr><tr><td><a href="890a125c-0cd5-d7d1-9a7a-3b2b1e302bb5.htm">GetBitmap(List<span id="LSTCD7DEED_92" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_93" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the chosen area if it is too small.
+            </td></tr><tr><td><a href="2bf0dbf3-457a-c608-6b80-76ddc711d594.htm">GetBitmap(List<span id="LSTCD7DEED_94" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_95" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the chosen area if it is too small.
+            </td></tr><tr><td><a href="3c73b458-c360-3146-1f67-a935cd1eaf36.htm">GetBitmap(IDrawingParameters, RectangleF, Int32, Int32, RectangleF<span id="LSTCD7DEED_96" data-languageSpecificText="cpp=%"></span>)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="f3c8c699-fc90-d738-6d15-3a3476c9ae91.htm">GetBitmap(List<span id="LSTCD7DEED_97" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_98" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="abb85ed0-7971-6c2c-a51f-c115d6c72ba7.htm">GetBitmap(List<span id="LSTCD7DEED_99" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_100" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, RectangleF<span id="LSTCD7DEED_101" data-languageSpecificText="cpp=%"></span>)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="2fa955d5-0757-3571-b438-5b8b4a889ef4.htm">GetBitmap(List<span id="LSTCD7DEED_102" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_103" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="b6790d9e-5d7e-db83-33e1-9943313fad26.htm">GetBitmap(List<span id="LSTCD7DEED_104" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_105" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, RectangleF<span id="LSTCD7DEED_106" data-languageSpecificText="cpp=%"></span>)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="49795d04-cab7-7ee0-ed91-d926f4667f91.htm">GetBitmap(IDrawingParameters, RectangleF, Int32, Int32, RectangleF<span id="LSTCD7DEED_107" data-languageSpecificText="cpp=%"></span>, CancellationToken)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="a631bb01-f240-4378-4361-f7b875ab1e86.htm">GetBitmap(List<span id="LSTCD7DEED_108" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_109" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="d05a3d4b-f1cd-2dc9-a1c0-51fffbe1e151.htm">GetBitmap(List<span id="LSTCD7DEED_110" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_111" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Color)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="f8ad3467-a241-5110-56eb-1d0a8fef6c82.htm">GetBitmap(List<span id="LSTCD7DEED_112" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_113" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="e4d139bf-b505-cf81-c5ca-9bbb7c3d5311.htm">GetBitmap(List<span id="LSTCD7DEED_114" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_115" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Color)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="5a4b73bf-1060-7a4c-4e8b-9382628d8532.htm">GetBitmap(List<span id="LSTCD7DEED_116" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_117" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Boolean, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="cd472fa7-af62-a9f3-349b-5d35c96c3d57.htm">GetBitmap(List<span id="LSTCD7DEED_118" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_119" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Color, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="15a8d4bb-4a5c-194f-a772-0c2ffd2e1c2b.htm">GetBitmap(List<span id="LSTCD7DEED_120" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_121" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Boolean, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="91169f19-8e4d-6761-44b7-3ef90247104c.htm">GetBitmap(List<span id="LSTCD7DEED_122" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_123" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Color, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="aaf50e40-0e3b-3037-3db9-163f459410e0.htm">GetBitmap(List<span id="LSTCD7DEED_124" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_125" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Boolean, Boolean, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="983b926a-12cd-64df-02f1-9c10559df4ca.htm">GetBitmap(List<span id="LSTCD7DEED_126" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_127" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Boolean, Boolean, Boolean)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="86da00b6-4bf2-8ee9-351d-a89ecec16e6e.htm">GetBitmap(List<span id="LSTCD7DEED_128" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_129" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, RectangleF<span id="LSTCD7DEED_130" data-languageSpecificText="cpp=%"></span>)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="42022819-e144-cd72-abe4-11e3d276ab9d.htm">GetBitmap(List<span id="LSTCD7DEED_131" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_132" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, RectangleF, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, RectangleF<span id="LSTCD7DEED_133" data-languageSpecificText="cpp=%"></span>)</a></td><td>
+            Gets a bitmap for the chosen rectangle area, expands the choosen area if it is too small.
+            </td></tr><tr><td><a href="d43b57e6-a9ca-da66-1316-1bb9b988dff2.htm">GetBounds</a></td><td>
+            Get the profile bounds of this step, or if there is no profile, the data bounds (including all substeps).
+            </td></tr><tr><td><a href="db11431e-003c-1cac-5f00-3a01f2602122.htm">GetBoundsD<span id="LSTCD7DEED_134" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            Get the profile bounds of this step, or if there is no profile, the data bounds (including all substeps).
+            </td></tr><tr><td><a href="a20115c4-c597-bc93-0a92-009611a1f468.htm">GetBoundsD(Boolean)</a></td><td>
+            Get the profile bounds of this step or the data bounds (including all substeps).
+            </td></tr><tr><td><a href="06b56b69-b818-b11b-cd58-0c2e7fae6f8e.htm">GetChildStepClasses</a></td><td>
+            Creates a list of all step and repeat classes that contained in this step.
+            </td></tr><tr><td><a href="c8eaf9ce-7c7f-6f62-d0cc-e24e834cbaa0.htm">GetChildSteps<span id="LSTCD7DEED_135" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            Creates a list of all uses stepnames.
+            </td></tr><tr><td><a href="efff140f-902c-2441-2601-774d42392364.htm">GetChildSteps(Boolean)</a></td><td>
+            Creates a list of all uses stepnames.
+            </td></tr><tr><td><a href="8cea3510-9e28-83eb-65b1-37de7aa3d1b9.htm">GetCMPLayer</a></td><td>
+            Get a CMP-layer, depending on Top or Bot. This returns null if no such layer exists!
+            </td></tr><tr><td><a href="108060c5-67a6-de17-5e9d-94d718388e55.htm">GetDatumStepHDR</a></td><td>
+            Get the step header datum point.
+            This value is only used for step and repeat positions (has no effect for standard root steps).
+            </td></tr><tr><td><a href="a4f6b371-cd41-e666-dbc3-a90bc5543766.htm">GetDetailImage</a></td><td>
+            Create a detail view image from the selected rectangle.
+            </td></tr><tr><td><a href="1b39cfba-ee85-2168-4c7a-314c8fd1f2d9.htm">GetDistanceBetweenGerberNets</a></td><td>
+            Calculate the distance of the edges between the net of NetNr1 and the net of NetNr2.
+            </td></tr><tr><td><a href="8f60f158-7e79-cd25-b51b-d7f50b22c0c7.htm">GetDistanceBetweenNets</a></td><td>
+            Calculate the distance of the edges between the net of NetNr1 and the net of NetNr2.
+            This methode is only for ODB-Data with netinformation!
+            </td></tr><tr><td><a href="9e9b71b7-83e7-adc7-2c08-ad0349b4f609.htm">GetDistanceLayerToLayer</a></td><td>
+            Calculate distance between two layers, it use all layers between exclude the start and end layer.
+            It's important to have start layer before end layer (do use matrix order in correct sequence).
+            </td></tr><tr><td><a href="fa6051b2-7f53-8b5a-7043-05d4f0d8efc2.htm">GetHeightOfLayer(String)</a></td><td>
+            Get Height of layer from layer attributes, this is depending on the matrix layer type. For dielectric layers is a other attribute relevant (.layer_dielectric) and for copper layers it use .copper_weight.
+            All values are in mils.
+            </td></tr><tr><td><a href="8cbdc208-6d2e-f178-b64f-f774e44ed776.htm">GetHeightOfLayer(String, MatrixLayerType)</a></td><td>
+            Get Height of layer from layer attributes, this is depending on the matrix layer type. For dielectric layers is a other attribute relevant (.layer_dielectric) and for copper layers it use .copper_weight.
+            All values are in mils.
+            </td></tr><tr><td><a href="80f25876-8656-64cc-8ec3-f7db9af6c3f4.htm">GetLayer</a></td><td>
+            Returns an ILayer with its LayerName or null if the layer doesn't exist.
+            </td></tr><tr><td><a href="174124a6-6d91-6b3a-c2de-fc56447af52f.htm">GetLayerAsync</a></td><td>
+            Asynchronius loading of layer. This can be dangoures! Please use only if you have experiance with async methods.
+            </td></tr><tr><td><a href="1360a22f-45e9-ec08-e150-6a838171a88b.htm">GetLayerAttribute</a></td><td>
+            Search for attribute of the relevant layer and return it or give an empty string if it dosn't contain the attribute name.
+            </td></tr><tr><td><a href="18eb893f-7485-6b64-da74-bf45fa36ed36.htm">GetLayerAttributes</a></td><td>
+            Load and get back layer attributes (if unit depending, then mils)
+            </td></tr><tr><td><a href="5fc7505c-c5cd-eba0-b6af-e41b76ee1961.htm">GetLoadedLayerList</a></td><td>
+            Get all layers, which are already loaded by the user at this time
+            </td></tr><tr><td><a href="9bfe6735-e4e7-f4b2-2b01-d52bf4754962.htm">GetNet(Int32)</a></td><td>
+            Search for an net with NetNumber.
+            </td></tr><tr><td><a href="81a6a272-b199-4050-0a78-7bea7ccbbac5.htm">GetNet(String)</a></td><td>
+            Search for an net with NetName.
+            </td></tr><tr><td><a href="44f470a2-aa9c-7ccf-d4cc-c9ac39ecec6a.htm">GetNet(String, Boolean)</a></td><td>
+            Search for an net with NetName.
+            </td></tr><tr><td><a href="923b09b0-9610-f94a-d01a-adb4e72d7bb7.htm">GetNetCount</a></td><td>
+            Check the netlist for count of nets in this step (no child steps included!).
+            </td></tr><tr><td><a href="b07ff332-840e-1a0a-2534-b706181b5bae.htm">GetNetNameFromNetNr</a></td><td>
+            Search for the right name to the NetNr.
+            </td></tr><tr><td><a href="455bfcd2-2ba5-b829-babf-f81b6941981a.htm">GetNetNrFromNetName(String)</a></td><td>
+            Search for the right number to the NetName.
+            </td></tr><tr><td><a href="a56d1900-f0cb-54f7-90c3-c6825d7fae01.htm">GetNetNrFromNetName(String, Boolean)</a></td><td>
+            Search for the right number to the NetName.
+            </td></tr><tr><td><a href="2d82cfe1-6e8e-9697-b565-814305bb7e98.htm">GetNets</a></td><td>
+            Creates a List of INet objects for all netdate in the ODB++-Job.
+            </td></tr><tr><td><a href="d14cca84-1b61-7d5b-7ed4-0c8e05665994.htm">GetODBNotes</a></td><td>
+            Gets the list of existing ODB++ Notes
+            </td></tr><tr><td><a href="650712b7-b7f6-bcef-7dea-80678f353623.htm">GetOriginStepHDR</a></td><td>
+            Get the step header origin point.
+            This value is only used for step and repeat positions (has no effect for standard root steps).
+            </td></tr><tr><td><a href="891be582-8d08-ed46-0b03-2983428f078c.htm">GetOutsideODBLayer(Boolean)</a></td><td>
+            Get the top or bottom odb layer.
+            Dielectric layers are ignored for searching bottom signal layer.
+            </td></tr><tr><td><a href="e64df2fb-7ccd-68cd-5bc5-79e664672dcf.htm">GetOutsideODBLayer(Boolean, Boolean)</a></td><td>
+            Get the top or bottom odb layer.
+            </td></tr><tr><td><a href="09d63993-be55-f92c-d913-0911b04692ea.htm">GetPCBOutline</a></td><td>
+            Creates the GraphicsPath of the ODB++ step outline.
+            </td></tr><tr><td><a href="8397597e-6d57-f6bd-9672-602453c688e0.htm">GetPCBOutlineAsODBObject</a></td><td>
+            Return the PCBoutline as Surface or null.
+            </td></tr><tr><td><a href="2f3e6e50-396e-f029-b901-07be42443015.htm">GetPCBOutlineAsSurface</a></td><td>
+            Creates an ISurfaceSpecifics from the PCB-Outline.
+            </td></tr><tr><td><a href="9e07bc58-78e2-a87b-603d-d945b48416fa.htm">GetPCBOutlineAsSurfaceD</a></td><td>
+            Creates an ISurfaceSpecifics from the PCB-Outline.
+            </td></tr><tr><td><a href="f110caab-e358-f2e5-ce86-d104d5eda27c.htm">GetPCBOutlineList</a></td><td>
+            Creates the List of objects from the ODB++ step outline.
+            </td></tr><tr><td><a href="7439d1f5-5c8b-534f-3f98-809bb9996ca1.htm">GetPCBOutlinePoly</a></td><td>
+            Creates a unioned Polygon of all Profile Objects
+            </td></tr><tr><td><a href="4b335acf-bcb8-fedd-6f0d-3af1a6b54321.htm">GetSelectedCMPs</a></td><td>
+            Creates a list of all selected ICMPObjects in this step.
+            </td></tr><tr><td><a href="e21d4af3-3256-17ee-31e6-09e38256cfa6.htm">GetSelectedCMPsCount</a></td><td>
+            The count of selected CMPs.
+            </td></tr><tr><td><a href="d2a8414f-a645-d66f-9046-d54b02a20c08.htm">GetSelectedElements</a></td><td>
+            Creates a list of all selected IODBObjects in this step.
+            </td></tr><tr><td><a href="8c9c7e9d-546c-c6f6-28c4-4fbf10442654.htm">GetSelectedElementsCount</a></td><td>
+            The count of selected elements.
+            </td></tr><tr><td><a href="44bd8c87-4d39-4480-da6b-c7b74e00983d.htm">GetStepAttributes</a></td><td>
+            Step attributes as strings (if unit depending, then mils)
+            </td></tr><tr><td><a href="233f932b-8510-a3f6-e52f-a7711166b3e0.htm">GetVisibleLayerList</a></td><td>
+            Get all visible layers (there are differnece between active layers and visible layers, you can test this by clickling the checkbox in the layerlist).
+            </td></tr><tr><td><a href="cc3ccee7-eaf6-f936-4cac-866f549f5311.htm">IsLayerFileEmptyOrMissing</a></td><td>
+            This method checks whether a feature file is existing and check the size for 0 KB. If there is a file with some information (not necessary elements on the layer) it returns false.
+            </td></tr><tr><td><a href="c4fda13d-e1c5-c3b9-faa0-df30d36d5a32.htm">MirrorPCBOutline</a></td><td>
+            Mirror the PCB contour in this step
+            </td></tr><tr><td><a href="c16b05c2-9bbf-0957-07f6-8fe45de3f158.htm">MovePCBOutline</a></td><td>
+            Move the PCB contour in this step.
+            </td></tr><tr><td><a href="31e2990b-b99b-da12-fce7-4701e995db97.htm">RemoveNetList</a></td><td>
+            Remove net list from current step.
+            </td></tr><tr><td><a href="3d641651-2c8f-6681-bcf3-36b819af26fc.htm">RemovePackage(InterfacePackageSpecificsD)</a></td><td>
+            Remove package from current ODB++ structure (eda file of this step).
+            It's important that no component use the relevant package.
+            This method use the selected package name to identify components on the PCB for usage.
+            </td></tr><tr><td><a href="611bf136-b042-c6f1-e9f1-dea95f2e00b8.htm">RemovePackage(IPackageSpecificsD)</a></td><td>
+            Remove package from current ODB++ structure (eda file of this step).
+            It's important that no component use the relevant package.
+            This method use the selected package name to identify components on the PCB for usage.
+            </td></tr><tr><td><a href="70bda04f-6dc0-0979-bdf6-ed9ff10f0a10.htm">RotatePCBOutline</a></td><td>
+            Rotate the PCB contour clockwise or counterclockwise.
+            </td></tr><tr><td><a href="0e8e6259-ad74-9225-0789-2c4045662db7.htm">SaveDXFFile(String, List<span id="LSTCD7DEED_136" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceLayer<span id="LSTCD7DEED_137" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Boolean, Boolean, Boolean, Double, Boolean, Boolean, Boolean)</a></td><td>
+            [Obsolete] Create DXF File for Layerlist with some parameters and colors are used from layer (only some DXF colors supported e.g. red, grey, yellow...).
+            </td></tr><tr><td><a href="eb5a865d-0f93-e3ad-3b24-73c7b1700001.htm">SaveDXFFile(String, List<span id="LSTCD7DEED_138" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>ILayer<span id="LSTCD7DEED_139" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Boolean, Boolean, Boolean, Double, Boolean, Boolean, Boolean, Boolean)</a></td><td>
+            [Obsolete] Create DXF File for Layerlist with some parameters and colors are used from layer (only some DXF colors supported e.g. red, grey, yellow...).
+            </td></tr><tr><td><a href="5956fc00-9a48-9ebb-7f3b-192f7debee0e.htm">SaveImageFromActiveLayerList</a></td><td>
+            Draws an image to hard disk.
+            </td></tr><tr><td><a href="5c77f288-4098-d47a-3326-3dbd66d154c4.htm">SelectContactNetCMPs</a></td><td>
+            Select the choosen CMPs in contact with the net.
+            </td></tr><tr><td><a href="87e6ea60-e454-295c-757d-e46c9f7f9d03.htm">SelectNetCrossover</a></td><td>
+            Select Net and all connected nets and all neighbor.
+            </td></tr><tr><td><a href="fe896005-ce43-a8d9-4cca-989887e52d0b.htm">SelectNetElements(Int32)</a></td><td>
+            Select all objects of the choosen net.
+            </td></tr><tr><td><a href="a9c919f5-f5f4-f580-5930-0674a641af1c.htm">SelectNetElements(String)</a></td><td>
+            Select all objects of the choosen net.
+            </td></tr><tr><td><a href="4a94c574-da27-5ac8-fb72-1d07c403adf1.htm">SelectNetElements(String, Boolean)</a></td><td>
+            Select all objects of the choosen net.
+            </td></tr><tr><td><a href="e5dcc69c-2365-ea11-fcc5-9c177640a7f8.htm">SetChildSteps(List<span id="LSTCD7DEED_140" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IStep<span id="LSTCD7DEED_141" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>StepAndRepeatClass<span id="LSTCD7DEED_142" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</a></td><td>
+            Set the steps to repeate in this step, all child steps must have a existing name to repeat them.
+            Be carefull with using this method, the list of existing step and repeat elements are cleard at the beginning. If you want to add a new step to existing steps use "AddChildStep".
+            </td></tr><tr><td><a href="270a93ff-6cf0-29f6-5229-b3bcbfe1206c.htm">SetChildSteps(List<span id="LSTCD7DEED_143" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IStep<span id="LSTCD7DEED_144" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>StepAndRepeatClass<span id="LSTCD7DEED_145" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean)</a></td><td>
+            Set the steps to repeate in this step, all child steps must have a existing name to repeat them.
+            Be carefull with using this method, the list of existing step and repeat elements are cleard at the beginning. If you want to add a new step to existing steps use "AddChildStep".
+            </td></tr><tr><td><a href="c480fe7c-2d50-4dbd-4979-ecd7b77613f1.htm">SetDatumStepHDR</a></td><td>
+            Set the datum fot step header. This is used for Step and Repeat in other steps where this is a child step.
+            </td></tr><tr><td><a href="27697232-e8ad-0f0d-3331-2d71c409631f.htm">SetHeightOfLayer(String, Double)</a></td><td>
+            Set height of layer in mils.
+            </td></tr><tr><td><a href="071d02c8-7ad4-1714-a6d8-c1a6b3fbaa86.htm">SetHeightOfLayer(String, MatrixLayerType, Double)</a></td><td>
+            Set height of layer in mils.
+            </td></tr><tr><td><a href="cda81a40-2bd7-09cc-0ebe-83c9a6fd7de9.htm">SetLayerAttribute(String, String, String)</a></td><td>
+            Set an layer attribute value, in ODB++ all attributes start with "." and use lower cases.
+            </td></tr><tr><td><a href="a6658075-1642-430c-b8e5-8f100d29ce88.htm">SetLayerAttribute(String, String, String, Boolean)</a></td><td>
+            Set an layer attribute value, in ODB++ all attributes start with "." and use lower cases.
+            </td></tr><tr><td><a href="d95e63ad-69c8-b6c1-dc5b-203b527c25ce.htm">SetOriginStepHDR</a></td><td>
+            Set the origin of step header. This is used for Step and Repeat in other steps where this is a child step.
+            </td></tr><tr><td><a href="3cc3ba7e-3374-c0c4-ed94-17a4af8ef853.htm">SetPCBOutline(InterfacePolyClass, Boolean)</a></td><td>
+            Set the PCB contour from an list with single Poly Class objects.
+            </td></tr><tr><td><a href="6279050c-0974-8a14-038c-56358e3aa4e1.htm">SetPCBOutline(InterfaceSurfaceSpecificsD, Boolean)</a></td><td>
+            Set the PCB contour from a ISurfaceSpecifics.
+            </td></tr><tr><td><a href="8b9c948c-db7e-9ff3-45c4-4180a001079f.htm">SetPCBOutline(IPolyClass, Boolean)</a></td><td>
+            Set the PCB contour from an list with single Poly Class objects.
+            </td></tr><tr><td><a href="8f171945-8849-087f-f873-43982e5c681a.htm">SetPCBOutline(ISurfaceSpecifics, Boolean)</a></td><td>
+            Set the PCB contour from a ISurfaceSpecifics.
+            </td></tr><tr><td><a href="52f67f62-8829-e385-2d2b-ead285287aee.htm">SetPCBOutline(ISurfaceSpecificsD, Boolean)</a></td><td>
+            Set the PCB contour from a ISurfaceSpecifics.
+            </td></tr><tr><td><a href="74cdf69c-4017-5835-151d-05b8596a8e8c.htm">SetPCBOutline(List<span id="LSTCD7DEED_146" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceODBObject<span id="LSTCD7DEED_147" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean)</a></td><td>
+            Set the PCB contour from an list with single objects.
+            </td></tr><tr><td><a href="e9ca4057-45f5-4673-da90-5c0db59138a8.htm">SetPCBOutline(List<span id="LSTCD7DEED_148" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBObject<span id="LSTCD7DEED_149" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean)</a></td><td>
+            Set the PCB contour from an list with single objects.
+            </td></tr><tr><td><a href="817bd600-fb87-c1b7-b759-f185e66023f9.htm">SetPCBOutline(List<span id="LSTCD7DEED_150" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>InterfaceODBObject<span id="LSTCD7DEED_151" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Double)</a></td><td>
+            Creates the outline from a list of objects.
+            </td></tr><tr><td><a href="150ff82c-f075-0e4b-cd13-a014e6784d20.htm">SetPCBOutline(List<span id="LSTCD7DEED_152" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>IODBObject<span id="LSTCD7DEED_153" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean, Double)</a></td><td>
+            Creates the outline from a list of objects.
+            </td></tr><tr><td><a href="a701f17c-2524-43f3-9b9c-6f7deff0316c.htm">SplitNet(List<span id="LSTCD7DEED_154" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Int32<span id="LSTCD7DEED_155" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</a></td><td>
+             Split nets in pieces, if there are more than one element group in the net(s).
+            </td></tr><tr><td><a href="122fa109-c1e4-54d7-e10c-62d45a1acf6e.htm">SplitNet(List<span id="LSTCD7DEED_156" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>String<span id="LSTCD7DEED_157" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</a></td><td>
+            Split nets in pieces, if there are more than one element group in the net(s).
+            </td></tr><tr><td><a href="edb6bb31-619c-2519-a8f6-6577d4b90076.htm">ToString</a></td><td><br />(Overrides <span class="noLink">Object<span id="LSTCD7DEED_158" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ToString<span id="LSTCD7DEED_159" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span>)</td></tr><tr><td><a href="11b3b10b-84d7-b07f-8892-9fb8d77687c5.htm">TurnOffAllLayer<span id="LSTCD7DEED_160" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            All layers will be turned off.
+            </td></tr><tr><td><a href="8d161465-19ff-8721-ea76-e0b6b6df71f3.htm">TurnOffAllLayer(Boolean)</a></td><td>
+            All layers will be turned off.
+            </td></tr><tr><td><a href="0b2898bb-0e85-046e-8551-8398b35efe81.htm">UnflattenArcsForProfile</a></td><td>
+            Try to find line combinations to create arcs out of them.
+            </td></tr><tr><td><a href="e88bd6f3-67e5-3cc9-9738-3221dde98c00.htm">UnloadLayer(ILayer)</a></td><td>
+            Unload layer e.g. to save RAM.
+            </td></tr><tr><td><a href="77283797-117c-cfe7-98d5-c60eb78649a7.htm">UnloadLayer(InterfaceLayer)</a></td><td>
+            Unload layer e.g. to save RAM.
+            </td></tr><tr><td><a href="fb7d4182-e0e6-fb80-fcbd-3630e3ca1bd8.htm">UpdateNetComponentConnection</a></td><td>
+            Updates the component pin net information according to the copper net information.
+            </td></tr><tr><td><a href="c6212ca3-9695-ef31-a27c-8db12c9226e6.htm">UpdateStepInformation</a></td><td>
+            Update all Step information and lists in PCB-Investigator.
+            </td></tr><tr><td><a href="703e8ac0-0346-b6b1-2524-5c4dddeb5e8a.htm">WriteIPCFile</a></td><td>
+            [Obsolete] Export a file in IPCD356 format with all net information (including cmp connections).
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Extension Methods</h2><div id="IDAFASection"><table id="ExtensionList" class="table is-hoverable"><tr><td><a href="94ad2031-8fb1-b71b-6586-076d3c090e14.htm">CreateGuid</a></td><td><br />(Defined by <a href="9896603b-4476-2942-7e20-cbe07da794a2.htm">GUIDExtensions</a>)</td></tr><tr><td><a href="ac41c173-d374-ec84-cbd3-b04f3f274d5c.htm">GetGuid</a></td><td><br />(Defined by <a href="9896603b-4476-2942-7e20-cbe07da794a2.htm">GUIDExtensions</a>)</td></tr><tr><td><a href="c7e0b2e3-d183-50d2-2f21-2752eae3a96e.htm">GetMatrixListforAllStepAndRepeatChilds</a></td><td>
+            Create a list with one matrix foreach placing of one step in the step and repeat (recursion).
+            You get a matrix to transform each element in the IStep-&gt;layer to get entries in this panel.
+            <br />(Defined by <a href="947ab23d-5337-4531-28f4-8c3949963899.htm">VirtualStepAndRepeatExtensions</a>)</td></tr><tr><td><a href="5b9bee94-692b-f9b4-82d5-c228376a4102.htm">GetPropValue</a></td><td><br />(Defined by <a href="81889612-2229-b5e1-6b4a-b6477a6f50ad.htm">ExtensionsMethods</a>)</td></tr><tr><td><a href="b0e3dfbb-16c0-2a68-07cd-417f783c8468.htm">GetTransformedOutlinePolyClassesForChildSteps</a></td><td>
+            Get all polyclasses for each outline of sub steps for this panel.
+            <br />(Defined by <a href="947ab23d-5337-4531-28f4-8c3949963899.htm">VirtualStepAndRepeatExtensions</a>)</td></tr><tr><td><a href="795c4226-8689-f75e-a48f-25318aa25bea.htm">SwitchPackagesToIPCNorm</a></td><td><br />(Defined by <a href="6ca5f14c-f960-e6b2-a4bb-899192ffb79f.htm">ModifyPackagesForIPC</a>)</td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="27856e2b-abd7-b4b8-2d7c-eb73d5330f15.htm">PCBI.Automation Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Definition</a></li><li><a class="quickLink">Properties</a></li><li><a class="quickLink">Methods</a></li><li><a class="quickLink">Extension Methods</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column">more details online<p><a href="http://www.pcb-investigator.com" target="_blank" rel="noopener noreferrer">http://www.pcb-investigator.com</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:support%40easylogix.de?Subject=PCB-Investigator%20Interface%20Documentation">support@easylogix.de</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        </script> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+hljs.highlightAll();
+});</script></body></html>

@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>InterfacePolyClass Methods</title><meta name="Title" content="Methods" /><meta name="Help.Id" content="Methods.T:PCBI.Automation.Interfaces.InterfacePolyClass" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="PCBI.Automation.Interfaces" /><meta name="guid" content="5458ddd0-30d9-6fdf-acab-4b0ac68274cf" /><meta name="tocFile" content="../toc/IDZ0PB0A.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">PCB-Investigator Interface Documentation</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>Interface<wbr />Poly<wbr />Class Methods</h1><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Methods</h2><div id="IDADASection"><table id="MethodList" class="table is-hoverable"><tr><td><a href="9db8c408-cd81-bea0-9755-2585b7d3afa5.htm">AddArc</a></td><td>
+            Add an arc to the polygon with outline elements (e.g. rounds at the endings).
+            </td></tr><tr><td><a href="89bb1adf-3782-3693-3dd7-c5411c5c2924.htm">AddCircle</a></td><td>
+            Add an complete circle to the polygon.
+            </td></tr><tr><td><a href="7eb58862-a008-0938-7493-ba71030cd452.htm">AddEdge(IEdge)</a></td><td>
+            Add an edge (ILineEdge or IArcEdge) to the polygon.
+            </td></tr><tr><td><a href="d3b0a154-bd34-3f88-4da1-3d49dc2a8392.htm">AddEdge(PointD, PointD)</a></td><td>
+            Add an ILineEdge to the polygon.
+            </td></tr><tr><td><a href="60ab06a1-4b86-f288-1b4a-c9a046b00133.htm">AddEdge(PointD, PointD, PointD, Boolean)</a></td><td>
+            Add an arc Edge to the polygon (its create the IArcEdge internal)
+            </td></tr><tr><td><a href="39f0fcba-8e91-08c2-6efe-50ecea90c29d.htm">AddEdge(PointD, PointD, PointD, Double, Boolean)</a></td><td>
+            Add an arc Edge to the polygon (its create the IArcEdge internal)
+            </td></tr><tr><td><a href="8ae71bd2-f8dd-ac4d-55dc-521b006189cc.htm">AddEllipse</a></td><td>
+            Calculates an ellipse of an rectangle.
+            </td></tr><tr><td><a href="358cbdc9-919e-34ae-fc20-5317c618b01f.htm">AddLine</a></td><td>
+            Add an line to the polygon with outline elments (e.g. rounds at the end).
+            </td></tr><tr><td><a href="76150fa8-c939-45f1-b405-bab77c9b8914.htm">AddOversize</a></td><td>
+            Resulting Polygon will be
+            a) CW if val greater than 0
+            b) CCW if val smaller than 0
+            </td></tr><tr><td><a href="fffdd3d3-6b84-d44d-1fd5-17371f8a419d.htm">AddPie</a></td><td>
+            Add pie to this polygon.
+            </td></tr><tr><td><a href="7f68514d-4612-e2b3-6c7e-53dacb21c23c.htm">AddRectangle</a></td><td>
+            Add a rectangle to this polygon.
+            </td></tr><tr><td><a href="d9f7ed64-5bb6-0cb5-1e14-ac70f67b1d76.htm">Clone</a></td><td>
+            Clone the object to get a second polygon with same values.
+            </td></tr><tr><td><a href="df1a600c-da67-cb74-e35d-61ac5aa483de.htm">CombinePolygons</a></td><td>
+            Combine two polygons and make one polygon of them.
+            This connect both with two lines who overlapping on start end end.
+            </td></tr><tr><td><a href="c269537a-c242-9837-0943-9ed8220a78e9.htm">Difference</a></td><td>
+            Calculates the difference between this and a second polygon. It modifies this and returns the reference to this.
+            </td></tr><tr><td><a href="9657ed8c-69de-3f0e-4f1f-f5c72e524080.htm">DistanceTo</a></td><td>
+            Calculate distance from this polygon to second polygon.
+            </td></tr><tr><td><a href="8c21f4e8-f8c0-0dce-61f6-5d52e74a7dd5.htm">DoesIntersect</a></td><td>
+            If the SecondObject intersect with this Object it returns true.
+            </td></tr><tr><td><a href="3aa97e94-d816-d599-ebca-30a3bbb934d7.htm">Draw</a></td><td>
+            Draws the Polygon on the given Graphics by using the current World-Client transformation of the IPCBIWindow.
+            </td></tr><tr><td><a href="9bb04ec6-6197-9618-bdea-6b77b2fac222.htm">Flatten</a></td><td>
+            Flatten cuts all arcs in small line elments with length "FlattenLength" in mils.
+            </td></tr><tr><td><a href="8d16cf4a-7467-77b4-b7c3-80466571a5a6.htm">GetArea</a></td><td>
+            Calculate the area of this polygon.
+            </td></tr><tr><td><a href="f3686b46-5cc2-1fae-f459-0e7d1cd0b063.htm">GetBounds</a></td><td>
+            bounds of polygon
+            </td></tr><tr><td><a href="20686982-0b35-0f88-9b2c-2d72269346a9.htm">GetCircumference</a></td><td>
+            Returns the circumference of the polygon in mils
+            </td></tr><tr><td><a href="6c86c83d-0d02-41ae-7d5a-ca83ba1eab1b.htm">GetEdgeCount</a></td><td>
+            Returns number of Edges in this Polygon
+            </td></tr><tr><td><a href="0880893d-29d4-0980-f0c0-48c29d36f220.htm">GetEdgeIndex</a></td><td>
+            Returns the Index of the given edge in the list
+            </td></tr><tr><td><a href="22bff921-8302-8579-9d47-c37b73fadd08.htm">GetEdges</a></td><td>
+            Create a new list of Edges from this polygon.
+            </td></tr><tr><td><a href="1230d35c-85fc-e7a1-e3cc-4993484d9ab0.htm">GetIntersectingPoints</a></td><td>
+            Returns a list of Intersecting Points of the Poly with the given Edge. Also the Edge-Indices which are intersecting are returned in indexList
+            </td></tr><tr><td><a href="a4856fd0-1ab0-067a-21cc-7728d0ca941e.htm">GetOutline</a></td><td>
+            Get outline elements as IObjectSpecifics.
+            </td></tr><tr><td><a href="08eb1b98-6b31-6025-ca73-5ee05a9277d7.htm">GetRasterEdges</a></td><td>
+            Create a new list of Edges from this polygon with y values in the raster(s) crossing the give Rectangle.
+            </td></tr><tr><td><a href="160b21f3-1de6-3cf9-1965-a20367efbb06.htm">GetSubPolygons<span id="LST56BCEE6B_0" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            Calculate all sub polygons and return a list of them, the list is empty if no subpoly are calculated.
+            </td></tr><tr><td><a href="ab350a5d-f12f-be4b-84d2-14fa307e5db5.htm">GetSubPolygons(Double)</a></td><td>
+            Create a List of all subPolygons.
+            </td></tr><tr><td><a href="ceed34ce-0618-cd2e-d327-dd83275fa2df.htm">GetSurfaceFromPolygon(IODBLayer)</a></td><td>
+            Create a new Surface on the ParentLayer. This works only if edges are sorted and only one polygon is included.
+            </td></tr><tr><td><a href="50701f06-cd92-5cb5-3600-c316009bd603.htm">GetSurfaceFromPolygon(IODBLayer, Boolean)</a></td><td>
+            Create a new Surface on the ParentLayer. This works only if edges are sorted!
+            </td></tr><tr><td><a href="e9ce0ed1-8213-4e2d-946f-8939f7e7a8a6.htm">InnerSortOfPolygonElements</a></td><td>
+            Sort inner elements and build groubs of connected edges.
+            </td></tr><tr><td><a href="4dda1fac-8fe5-f861-6d45-81323791a9fb.htm">Intersect</a></td><td>
+            Calculate the intersection part of this and a second polygon
+            (Does not change 'this' polygon).
+            </td></tr><tr><td><a href="3863d458-8dd3-1567-4245-e741dfa301de.htm">IsAnyPointOfSecondObjectIncluded</a></td><td>
+            Check if any Point of second PolyClass is included in this PolyClass.
+            </td></tr><tr><td><a href="2c30f645-3466-2be5-67d0-297c1e0dd2a0.htm">IsClockWise</a></td><td>
+            Returns true if Polygon is Clockwise
+            </td></tr><tr><td><a href="bf89fac7-2cf1-59a5-d1c9-1f9f591744da.htm">IsClosed</a></td><td>
+            Check the whether polygon is closed?
+            This method is very slow, do use it carfully.
+            </td></tr><tr><td><a href="f489bbc4-8910-ae3e-3472-5008a6968f26.htm">isEqualsTol</a></td><td>
+            Compares two polygons.
+            </td></tr><tr><td><a href="3d1e8948-a542-73c2-8f10-b457fe0b2cdf.htm">IsPointOfSecondObjectIncluded</a></td><td>
+            If the first point of the SecondObject is in this object it returns true;
+            </td></tr><tr><td><a href="2787fc88-ea2c-85db-ea46-44ea507ff150.htm">PointInPolygon</a></td><td>
+            Checks the given point p is inside of the polygon.
+            </td></tr><tr><td><a href="2b214d01-e480-5058-105f-da43581dd749.htm">RemoveDoubleEdges</a></td><td>
+            If there are double edges in the polygon outline, they are removed. The original polygon will be changed!
+            Some other checks and operations need "clean" polygons without double edges, if necessary call this method first.
+            </td></tr><tr><td><a href="5c1b5b00-33c7-5e33-e3e3-d5ec9e91e63d.htm">Reverse</a></td><td>
+            Change direction of edges (Isle to hole and holes to isle).
+            </td></tr><tr><td><a href="808ec3c2-f1d6-5166-2d0a-7a902268a737.htm">Rotate</a></td><td>
+            Rotate the polygon.
+            </td></tr><tr><td><a href="a4a62f15-8852-7b2a-8b9e-89674acd83b2.htm">Scale</a></td><td>
+            Scales the Polygon
+            </td></tr><tr><td><a href="64d9e8e1-7e42-d08b-5207-bb17a6bd54a9.htm">SplitInIsleAndHoles<span id="LST56BCEE6B_1" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            Sortes the Sub-Polygons in single Isles (including their holes)
+            </td></tr><tr><td><a href="a207b6b0-4b88-a204-9d41-e490bde47660.htm">SplitInIsleAndHoles(IPCBIWindow, IODBLayer)</a></td><td>
+            Check all subpolygons for holes and isles, make a list of new surfaces for each isle with own holes.
+            </td></tr><tr><td><a href="b45358eb-a777-51d2-8f84-c0b4515c45e6.htm">Transform</a></td><td>
+            Transforms the poylgon by the given Matrix
+            </td></tr><tr><td><a href="65170234-b097-515a-3f13-a3cbddddcfa2.htm">Translate(Double, Double)</a></td><td>
+            Move the poygon.
+            </td></tr><tr><td><a href="58fc7c55-b885-0298-2e51-5c551708b2a8.htm">Translate(Single, Single)</a></td><td>
+            Move the poygon.
+            </td></tr><tr><td><a href="efc2f0b7-27a6-4ed8-6010-7216ac7ac57a.htm">Union</a></td><td>
+            Union combines this and the second poly, it return this with modifications.
+            </td></tr><tr><td><a href="db9da0b3-3fa3-2043-e154-ea89d13a955c.htm">UpdateBounds</a></td><td>
+            Check all edges and calculate bound new.
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="d28e59b4-a721-71e7-4957-735fbf1383a8.htm">InterfacePolyClass Interface</a></div><div><a href="554a4761-1813-61f8-6d34-a3246e2779ca.htm">PCBI.Automation.Interfaces Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Methods</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column">more details online<p><a href="http://www.pcb-investigator.com" target="_blank" rel="noopener noreferrer">http://www.pcb-investigator.com</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:support%40easylogix.de?Subject=PCB-Investigator%20Interface%20Documentation">support@easylogix.de</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        </script> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script></body></html>
